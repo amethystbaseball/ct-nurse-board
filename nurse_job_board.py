@@ -38,6 +38,7 @@ import datetime as dt
 import hashlib
 import html
 import json
+import os
 import re
 import sqlite3
 import sys
@@ -117,16 +118,27 @@ SOURCES = [
         "site": "connecticutchildrenscareers",
     },
     {
-        # Northwell (now operates the former Nuvance CT hospitals: Danbury,
-        # Norwalk, New Milford, Sharon). Public search is a Findly front-end,
-        # but the candidate system underneath is Oracle ORC (site CX_2). The CT
-        # filter trims Northwell's large NY footprint to its Connecticut sites.
-        "key": "northwell",
-        "name": "Northwell Health",
-        "adapter": "oracle",
-        "host": "https://eppr.fa.us2.oraclecloud.com",
-        "site": "CX_2",
+        # VA Connecticut (West Haven, Newington) plus other CT federal nursing
+        # via the USAJobs API. Needs USAJOBS_API_KEY + USAJOBS_EMAIL env vars.
+        # Clear "department" to include all federal agencies, not just the VA.
+        "key": "va_ct",
+        "name": "VA Connecticut (Federal)",
+        "adapter": "usajobs",
+        "location": "Connecticut",
+        "department": "Veterans Affairs",
     },
+    # Northwell / former Nuvance CT hospitals (Danbury, Norwalk, New Milford,
+    # Sharon) are PARKED. Their CT listings are mid-migration and scattered:
+    #   - careers.nuvancehealth.org -> Radancy front-end, bot-protected, no feed
+    #   - jobs.jobvite.com/nuvance  -> old Jobvite ATS, being retired
+    #   - eppr...oraclecloud.com CX_2 -> Northwell's Oracle tenant, NY jobs only
+    #     today (pulling it returned 496 jobs, all non-CT)
+    # Revisit once the Nuvance->Northwell migration settles. If/when the CT jobs
+    # land in the Oracle tenant, re-enable by uncommenting this block:
+    # {
+    #     "key": "northwell", "name": "Northwell Health", "adapter": "oracle",
+    #     "host": "https://eppr.fa.us2.oraclecloud.com", "site": "CX_2",
+    # },
     # Add more here. To add another Workday system, copy the Trinity block and
     # change host/tenant/site. Find those three by opening the system's careers
     # page: the URL looks like
@@ -663,11 +675,101 @@ def fetch_oracle(source: dict, session: requests.Session, verbose: bool) -> list
 
 
 # --------------------------------------------------------------------------- #
+# Adapter: USAJobs  (VA Connecticut and other federal nursing jobs)
+# --------------------------------------------------------------------------- #
+# Official federal API: https://data.usajobs.gov/api/search
+# Requires a free API key (https://developer.usajobs.gov/apirequest/) passed
+# via the USAJOBS_API_KEY env var, plus the registration email in USAJOBS_EMAIL.
+# We query by state and (optionally) keep only one department, e.g. Veterans
+# Affairs. If the key/email aren't set, the source is skipped cleanly.
+
+def fetch_usajobs(source: dict, session: requests.Session, verbose: bool) -> list[Job]:
+    api_key = os.environ.get("USAJOBS_API_KEY", "").strip()
+    email = os.environ.get("USAJOBS_EMAIL", "").strip()
+    if not api_key or not email:
+        print("   [usajobs] skipped: set USAJOBS_API_KEY and USAJOBS_EMAIL "
+              "(GitHub repo secrets) to enable this source.")
+        return []
+
+    endpoint = "https://data.usajobs.gov/api/search"
+    headers = {
+        "Host": "data.usajobs.gov",
+        "User-Agent": email,
+        "Authorization-Key": api_key,
+        "Accept": "application/json",
+    }
+    location = source.get("location", "Connecticut")
+    dept_filter = (source.get("department") or "").lower()
+    per_page = 250
+    by_id: dict[str, Job] = {}
+
+    for kw in NURSE_KEYWORDS:
+        page = 1
+        for _ in range(MAX_SEARCH_PAGES):
+            params = {"Keyword": kw, "LocationName": location,
+                      "ResultsPerPage": per_page, "Page": page}
+            try:
+                resp = polite_get(session, endpoint, params=params, headers=headers)
+            except requests.RequestException as e:
+                if verbose:
+                    print(f"  [usajobs] request failed ({kw} p{page}): {e}",
+                          file=sys.stderr)
+                break
+            if resp.status_code != 200:
+                if verbose:
+                    print(f"  [usajobs] HTTP {resp.status_code} for {kw} p{page}")
+                break
+            try:
+                data = resp.json()
+            except ValueError:
+                break
+
+            sr = data.get("SearchResult", {})
+            items = sr.get("SearchResultItems") or []
+            try:
+                total = int(sr.get("SearchResultCountAll", 0) or 0)
+            except (TypeError, ValueError):
+                total = 0
+            if not items:
+                break
+
+            for it in items:
+                d = it.get("MatchedObjectDescriptor", {})
+                dept = d.get("DepartmentName") or ""
+                if dept_filter and dept_filter not in dept.lower():
+                    continue
+                pid = str(it.get("MatchedObjectId") or d.get("PositionID") or "")
+                if not pid or pid in by_id:
+                    continue
+                locs = d.get("PositionLocation") or []
+                loc = locs[0].get("LocationName", "") if locs else ""
+                by_id[pid] = Job(
+                    source_key=source["key"],
+                    source_name=source["name"],
+                    external_id=pid,
+                    title=(d.get("PositionTitle") or "").strip(),
+                    location=loc,
+                    url=(d.get("PositionURI") or "").strip(),
+                    posted_at=_iso_date(d.get("PublicationStartDate") or ""),
+                )
+
+            if verbose:
+                print(f"  [usajobs] '{kw}' p{page}: {len(items)} rows "
+                      f"({len(by_id)} kept)")
+            page += 1
+            if (total and page * per_page > total) or len(items) < per_page:
+                break
+
+    return list(by_id.values())
+
+
+# --------------------------------------------------------------------------- #
 # Shared helpers
 # --------------------------------------------------------------------------- #
 
 ADAPTERS = {"icims": fetch_icims, "phenom": fetch_phenom,
-            "workday": fetch_workday, "oracle": fetch_oracle}
+            "workday": fetch_workday, "oracle": fetch_oracle,
+            "usajobs": fetch_usajobs}
 
 
 def _strip_html(text: str) -> str:
