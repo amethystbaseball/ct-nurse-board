@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-06-02T17:24:11",
+  "generated_display": "June 02, 2026 at 05:24 PM",
+  "counts": {
+    "total": 3,
+    "rn": 2,
+    "aprn": 1
+  },
+  "jobs": [
+    {
+      "title": "Registered Nurse - Cardiac ICU",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, CT",
+      "url": "https://jobs.ynhhs.org/jobs/111",
+      "posted": "2026-06-01"
+    },
+    {
+      "title": "Registered Nurse - Med/Surg",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Waterbury, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/123",
+      "posted": "2026-05-31"
+    },
+    {
+      "title": "Family Nurse Practitioner - Primary Care",
+      "role": "APRN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, CT",
+      "url": "https://www.hhccareers.org/job/9",
+      "posted": "2026-05-30"
+    }
+  ]
+}
