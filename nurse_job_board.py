@@ -384,13 +384,21 @@ def fetch_phenom(source: dict, session: requests.Session, verbose: bool) -> list
             if not jobs_arr:
                 break
 
+            # One-time diagnostic: show the field names + url-ish values of the
+            # first job so we can see exactly how this site names its links.
+            if verbose and not _phenom_dumped["done"] and jobs_arr:
+                _phenom_dumped["done"] = True
+                sample = jobs_arr[0]
+                print(f"  [phenom] sample job keys: {sorted(sample.keys())}")
+                for k in sample:
+                    if "url" in k.lower() or "link" in k.lower() or "path" in k.lower():
+                        print(f"  [phenom] sample {k} = {sample[k]!r}")
+
             for j in jobs_arr:
                 ext_id = str(j.get("jobSeqNo") or j.get("id") or j.get("jobId") or "")
                 if not ext_id or ext_id in by_id:
                     continue
-                url = j.get("applyUrl") or j.get("jobUrl") or j.get("url") or ""
-                if url and url.startswith("/"):
-                    url = base + url
+                url = _phenom_url(j, base)
                 loc = j.get("location") or ", ".join(
                     p for p in (j.get("city", ""), j.get("state", "")) if p)
                 by_id[ext_id] = Job(
@@ -426,6 +434,36 @@ def _phenom_jobs_array(data: dict) -> list[dict]:
     if isinstance(data.get("jobs"), list):
         return data["jobs"]
     return []
+
+
+# One-time flag so the diagnostic field dump only prints once per run.
+_phenom_dumped = {"done": False}
+
+# Phenom job objects name the link differently across sites. Try the common
+# fields, then fall back to building one from the job id + a title slug.
+_PHENOM_URL_FIELDS = ["applyUrl", "jobUrl", "url", "jobDetailUrl",
+                      "detailUrl", "canonicalUrl", "jobPostingUrl"]
+
+
+def _phenom_url(j: dict, base: str) -> str:
+    for f in _PHENOM_URL_FIELDS:
+        v = j.get(f)
+        if isinstance(v, str) and v.strip():
+            v = v.strip()
+            if v.startswith("//"):
+                return "https:" + v
+            if v.startswith("/"):
+                return base + v
+            if v.startswith("http"):
+                return v
+    # Fallback: Phenom detail pages resolve from the job id; a missing slug
+    # still redirects to the canonical posting.
+    jid = j.get("jobId") or j.get("jobSeqNo") or j.get("id")
+    if jid:
+        slug = re.sub(r"[^a-z0-9]+", "-", (j.get("title") or "").lower()).strip("-")
+        tail = f"/job/{jid}" + (f"/{slug}" if slug else "")
+        return base + "/us/en" + tail
+    return ""
 
 
 # --------------------------------------------------------------------------- #
