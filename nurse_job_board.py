@@ -629,18 +629,27 @@ def refresh(conn: sqlite3.Connection, only: Optional[str], verbose: bool) -> Non
             continue
 
         kept: list[Job] = []
+        dropped_no_url = dropped_loc = dropped_role = 0
         for job in raw_jobs:
+            if not (job.url or "").lower().startswith(("http://", "https://")):
+                dropped_no_url += 1  # no usable link; nothing a student can act on
+                continue
             if not is_target_location(job.location):
+                dropped_loc += 1
                 continue
             role = classify_role(job.title, job.description)
-            if role:
-                job.role = role
-                kept.append(job)
+            if not role:
+                dropped_role += 1
+                continue
+            job.role = role
+            kept.append(job)
 
         new_count, updated = upsert_jobs(conn, kept)
         stale = deactivate_stale(conn, source["key"], run_ts)
         print(f"   {len(raw_jobs)} pulled -> {len(kept)} RN/APRN "
               f"({new_count} new, {updated} updated, {stale} closed)")
+        print(f"   dropped: {dropped_no_url} no-link, {dropped_loc} non-CT, "
+              f"{dropped_role} not-RN/APRN")
 
 
 def _active_recent_rows(conn: sqlite3.Connection) -> list:
