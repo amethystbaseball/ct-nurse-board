@@ -252,97 +252,82 @@ def polite_post(session: requests.Session, url: str, **kw) -> requests.Response:
 
 
 # --------------------------------------------------------------------------- #
-# Adapter: iCIMS  (Yale New Haven Health)
+# Adapter: iCIMS / Jibe  (Yale New Haven Health)
 # --------------------------------------------------------------------------- #
-# Strategy:
-#   1. Hit the public search results page for each keyword, walk pagination,
-#      and collect job-detail URLs (/jobs/<id>).
-#   2. Fetch each detail page and read the schema.org JobPosting embedded as
-#      <script type="application/ld+json">. iCIMS reliably embeds this, which
-#      gives clean title/location/description/datePosted without brittle
-#      HTML scraping.
+# jobs.ynhhs.org is a JavaScript app on iCIMS's "Jibe" career-site platform.
+# The job list isn't in the HTML; it's served from a JSON API at /api/jobs.
+#   GET https://<base>/api/jobs?keyword=<kw>&page=<n>&limit=<N>
+# Response: {"jobs":[{"data":{...}}], "totalCount":N}. The public posting URL
+# is https://<base>/jobs/<slug-or-id>.
+
+_jibe_dumped = {"done": False}
+
 
 def fetch_icims(source: dict, session: requests.Session, verbose: bool) -> list[Job]:
     base = source["base_url"].rstrip("/")
-    detail_urls: set[str] = set()
+    endpoint = f"{base}/api/jobs"
+    limit = 50
+    by_id: dict[str, Job] = {}
 
     for kw in NURSE_KEYWORDS:
-        for page in range(MAX_SEARCH_PAGES):
-            params = {"searchKeyword": kw, "ss": "1", "pr": page, "in_iframe": "1"}
-            url = f"{base}/jobs/search"
+        page = 1
+        for _ in range(MAX_SEARCH_PAGES):
+            params = {"keyword": kw, "page": page, "limit": limit,
+                      "sortBy": "posted_date"}
             try:
-                resp = polite_get(session, url, params=params)
+                resp = polite_get(session, endpoint, params=params,
+                                  headers={"Accept": "application/json"})
             except requests.RequestException as e:
                 if verbose:
-                    print(f"  [icims] request failed ({kw} p{page}): {e}", file=sys.stderr)
+                    print(f"  [jibe] request failed ({kw} p{page}): {e}",
+                          file=sys.stderr)
                 break
             if resp.status_code != 200:
+                if verbose:
+                    print(f"  [jibe] HTTP {resp.status_code} for {kw} p{page}")
+                break
+            try:
+                data = resp.json()
+            except ValueError:
                 break
 
-            soup = BeautifulSoup(resp.text, "html.parser")
-            found = re.findall(r"/jobs/\d+", resp.text)
-            new = {base + path.split("?")[0] for path in found}
-            new -= detail_urls
-            if not new:
-                break  # no new jobs on this page -> end of results for this kw
-            detail_urls |= new
+            arr = data.get("jobs") or []
+            total = data.get("totalCount") or data.get("total") or 0
+
+            if verbose and not _jibe_dumped["done"] and arr:
+                _jibe_dumped["done"] = True
+                d0 = arr[0].get("data", arr[0])
+                print(f"  [jibe] totalCount={total}; sample data keys: {sorted(d0.keys())}")
+
+            if not arr:
+                break
+
+            for item in arr:
+                d = item.get("data", item)
+                slug = d.get("slug") or d.get("id") or d.get("req_id") or ""
+                if not slug or slug in by_id:
+                    continue
+                loc = (d.get("full_location") or
+                       ", ".join(p for p in (d.get("city", ""), d.get("state", "")) if p))
+                by_id[str(slug)] = Job(
+                    source_key=source["key"],
+                    source_name=source["name"],
+                    external_id=str(d.get("req_id") or slug),
+                    title=(d.get("title") or "").strip(),
+                    location=loc,
+                    url=f"{base}/jobs/{slug}",
+                    description=_strip_html(d.get("description")
+                                            or d.get("descriptionTeaser") or ""),
+                    posted_at=_iso_date(d.get("posted_date") or d.get("postedDate") or ""),
+                )
+
             if verbose:
-                print(f"  [icims] '{kw}' page {page}: +{len(new)} urls "
-                      f"({len(detail_urls)} total)")
+                print(f"  [jibe] '{kw}' p{page}: {len(arr)} rows ({len(by_id)} total)")
+            page += 1
+            if (total and page * limit > total) or len(arr) < limit:
+                break
 
-    jobs: list[Job] = []
-    for url in sorted(detail_urls):
-        try:
-            resp = polite_get(session, url)
-        except requests.RequestException:
-            continue
-        if resp.status_code != 200:
-            continue
-        posting = _extract_jsonld_jobposting(resp.text)
-        if not posting:
-            continue
-        title = (posting.get("title") or "").strip()
-        loc = _jsonld_location(posting)
-        desc = _strip_html(posting.get("description", ""))
-        ext_id = (re.search(r"/jobs/(\d+)", url) or [None, ""])[1] if "/jobs/" in url else url
-        jobs.append(Job(
-            source_key=source["key"],
-            source_name=source["name"],
-            external_id=str(ext_id),
-            title=title,
-            location=loc,
-            url=url,
-            description=desc,
-            posted_at=_iso_date(posting.get("datePosted", "")),
-        ))
-    return jobs
-
-
-def _extract_jsonld_jobposting(html_text: str) -> Optional[dict]:
-    soup = BeautifulSoup(html_text, "html.parser")
-    for tag in soup.find_all("script", attrs={"type": "application/ld+json"}):
-        raw = tag.string or tag.get_text() or ""
-        try:
-            data = json.loads(raw)
-        except (json.JSONDecodeError, TypeError):
-            continue
-        for obj in (data if isinstance(data, list) else [data]):
-            if isinstance(obj, dict) and obj.get("@type") == "JobPosting":
-                return obj
-    return None
-
-
-def _jsonld_location(posting: dict) -> str:
-    loc = posting.get("jobLocation")
-    if isinstance(loc, list):
-        loc = loc[0] if loc else {}
-    if isinstance(loc, dict):
-        addr = loc.get("address", {})
-        if isinstance(addr, dict):
-            city = addr.get("addressLocality", "")
-            region = addr.get("addressRegion", "")
-            return ", ".join(p for p in (city, region) if p)
-    return ""
+    return list(by_id.values())
 
 
 # --------------------------------------------------------------------------- #
