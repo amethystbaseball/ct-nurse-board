@@ -28,6 +28,9 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Refresh listings and write feed
+        env:
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
         run: python nurse_job_board.py --refresh --json --verbose
 
       - name: Commit updated feed and archive
