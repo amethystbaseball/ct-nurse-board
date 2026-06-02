@@ -68,14 +68,29 @@
                        border-top:1px solid var(--line); color:var(--muted);
                        font-size:.78rem; line-height:1.5; }
   #ctjobs-root .foot strong { color:var(--blue); }
+  #ctjobs-root .masthead .sources { color:#cdd8e6; font-size:.78rem; margin-top:.55rem; line-height:1.4; }
+  #ctjobs-root .masthead .sources strong { color:#fff; font-weight:600; }
+  #ctjobs-root .disclaimer { max-width:1000px; margin:1rem auto 0; padding:.6rem .85rem;
+    background:rgba(189,155,96,.12); border:1px solid var(--gold); border-radius:6px;
+    color:var(--ink); font-size:.76rem; line-height:1.45; }
+  #ctjobs-root .disclaimer strong { color:var(--blue); }
 </style>
 
   <header class="masthead"><div class="inner">
     <h1>Connecticut Nursing Jobs</h1>
     <div class="meta" id="ctjobs-meta">Loading...</div>
+    <div class="sources" id="ctjobs-sources"></div>
   </div></header>
 
   <div class="wrap">
+    <div class="disclaimer">
+      <strong>Disclaimer:</strong> This board aggregates publicly available
+      listings from third-party hospital career websites. Yale School of Nursing
+      is not affiliated with these employers and is not responsible for the
+      content, accuracy, or availability of any third-party website. Listings may
+      be outdated, modified, or filled at any time. Verify all details directly
+      with the prospective employer before applying.
+    </div>
     <div class="controls">
       <input id="ctjobs-q" type="search" placeholder="Search title, location, employer...">
       <button data-f="ALL" class="active">All</button>
@@ -86,6 +101,7 @@
     <div class="filters">
       <select id="ctjobs-employer"><option value="">All employers</option></select>
       <select id="ctjobs-specialty"><option value="">All specialties</option></select>
+      <select id="ctjobs-location"><option value="">All locations</option></select>
       <span id="ctjobs-count" class="count"></span>
     </div>
     <div id="ctjobs-state" class="state">Loading current listings...</div>
@@ -94,14 +110,6 @@
     </tr></thead><tbody id="ctjobs-rows"></tbody></table>
   </div>
 
-  <div class="foot">
-    <strong>Disclaimer:</strong> This board aggregates publicly available job
-    listings from third-party hospital career websites. Yale School of Nursing
-    is not affiliated with these employers and is not responsible for the
-    content, accuracy, or availability of any third-party website. Listings may
-    be outdated, modified, or filled at any time. Students should verify all
-    details, including current availability, qualifications, and terms of
-    employment, directly with the prospective employer before applying.
   </div>
 </div>
 
@@ -118,12 +126,26 @@
   var qEl     = document.getElementById("ctjobs-q");
   var empEl   = document.getElementById("ctjobs-employer");
   var specEl  = document.getElementById("ctjobs-specialty");
+  var locEl   = document.getElementById("ctjobs-location");
+  var srcEl   = document.getElementById("ctjobs-sources");
   var countEl = document.getElementById("ctjobs-count");
 
   var allJobs = [];
   var roleFilter = "ALL";
   var employerFilter = "";
   var specialtyFilter = "";
+  var locationFilter = "";
+
+  // Normalize a messy location string to a single town/city for the filter.
+  // "NEW HAVEN, Connecticut" and "New Haven, CT" both -> "New Haven".
+  function cityOf(loc) {
+    if (!loc) return "";
+    var first = String(loc).split(",")[0].trim();
+    if (!first) return "";
+    if (/^\d+\s+locations?$/i.test(first)) return "Multiple locations";
+    if (/^[A-Za-z]{2}\d{3,}$/.test(first) || /^\d{4,}/.test(first)) return ""; // zip/code -> skip
+    return first.toLowerCase().replace(/\b[a-z]/g, function (c) { return c.toUpperCase(); });
+  }
 
   // Infer a clinical specialty from the job title (for the Specialty filter).
   // Clinical area only; RN vs APRN is handled by the role buttons.
@@ -164,6 +186,7 @@
       if (roleFilter !== "ALL" && j.role !== roleFilter) return;
       if (employerFilter && j.employer !== employerFilter) return;
       if (specialtyFilter && j._spec !== specialtyFilter) return;
+      if (locationFilter && j._city !== locationFilter) return;
       var hay = (j.title + " " + j.employer + " " + j.location).toLowerCase();
       if (term && hay.indexOf(term) === -1) return;
       shown++;
@@ -196,6 +219,7 @@
   qEl.addEventListener("input", render);
   empEl.addEventListener("change", function () { employerFilter = empEl.value; render(); });
   specEl.addEventListener("change", function () { specialtyFilter = specEl.value; render(); });
+  locEl.addEventListener("change", function () { locationFilter = locEl.value; render(); });
   var btns = rootEl.querySelectorAll(".controls button[data-f]");
   Array.prototype.forEach.call(btns, function (b) {
     b.addEventListener("click", function () {
@@ -210,16 +234,23 @@
 
   function populateFilters() {
     // Employers: alphabetical. Specialties: in the order defined above, plus Other.
-    var employers = {}, specs = {};
+    var employers = {}, specs = {}, cities = {};
     allJobs.forEach(function (j) {
       if (j.employer) employers[j.employer] = true;
       if (j._spec) specs[j._spec] = true;
+      if (j._city) cities[j._city] = true;
     });
     var empList = Object.keys(employers).sort();
     var order = SPECIALTIES.map(function (s) { return s[0]; }).concat(["Other"]);
     var specList = order.filter(function (s) { return specs[s]; });
+    // Cities alphabetical, but push "Multiple locations" to the bottom.
+    var cityList = Object.keys(cities).sort(function (a, b) {
+      if (a === "Multiple locations") return 1;
+      if (b === "Multiple locations") return -1;
+      return a.localeCompare(b);
+    });
 
-    function fill(sel, items, keepFirst) {
+    function fill(sel, items) {
       while (sel.options.length > 1) sel.remove(1);
       items.forEach(function (v) {
         var o = document.createElement("option");
@@ -229,6 +260,14 @@
     }
     fill(empEl, empList);
     fill(specEl, specList);
+    fill(locEl, cityList);
+
+    if (empList.length) {
+      srcEl.innerHTML = "<strong>Currently pulling from:</strong> " +
+        empList.map(esc).join(" \u00B7 ");
+    } else {
+      srcEl.textContent = "";
+    }
   }
 
   function loadFeed() {
@@ -244,7 +283,7 @@
       })
       .then(function (feed) {
         allJobs = feed.jobs || [];
-        allJobs.forEach(function (j) { j._spec = specialtyOf(j.title); });
+        allJobs.forEach(function (j) { j._spec = specialtyOf(j.title); j._city = cityOf(j.location); });
         populateFilters();
         var c = feed.counts || { total: allJobs.length, rn: 0, aprn: 0 };
         metaEl.textContent =
