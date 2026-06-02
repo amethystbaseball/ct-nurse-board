@@ -188,32 +188,40 @@ _RN_PATTERNS = [
 # Hard excludes: roles that contain "nurse" but aren't RN/APRN positions.
 _EXCLUDE_PATTERNS = [
     r"\bnursing assistant\b", r"\bcna\b", r"\bnurse aide\b", r"\bnurse's aide\b",
-    r"\bpatient care (tech|technician|associate)\b", r"\bpct\b",
+    r"\bpatient care (tech|technician|associate|assistant)\b", r"\bpct\b", r"\bpca\b",
     r"\bnurse extern\b", r"\bstudent nurse\b", r"\bnurse intern\b",
     r"\bunit (secretary|clerk)\b", r"\bscheduler\b",
+    r"\bphysician assistant\b", r"\bphysician's assistant\b", r"\bphys assistant\b",
+    r"(?<![a-z])PA(?![a-z])",  # standalone PA (Physician Assistant); case-sensitive on purpose
     r"\blicensed practical nurse\b", r"\blpn\b",  # remove this line if you want LPNs too
 ]
 
 _APRN_RE = re.compile("|".join(_APRN_PATTERNS), re.I)
 _RN_RE = re.compile("|".join(_RN_PATTERNS), re.I)
-_EXCLUDE_RE = re.compile("|".join(_EXCLUDE_PATTERNS), re.I)
+# Most excludes are case-insensitive; the standalone "PA" rule is case-sensitive
+# (added without re.I via inline handling) so it matches "PA" but not "pa" inside words.
+_EXCLUDE_RE = re.compile("|".join(p for p in _EXCLUDE_PATTERNS if p != r"(?<![a-z])PA(?![a-z])"), re.I)
+_PA_RE = re.compile(r"(?<![A-Za-z])PA(?![A-Za-z])")  # standalone uppercase PA token
 
 
 def classify_role(title: str, description: str = "") -> Optional[str]:
     """Return 'APRN', 'RN', or None (drop). Title is weighted most heavily."""
     title = title or ""
-    if _EXCLUDE_RE.search(title):
-        return None
+    # Genuine nurse-practitioner signals win first, so a combined APRN posting
+    # isn't dropped by the PA exclusion below.
     if _APRN_RE.search(title):
         return "APRN"
+    # Hard non-nurse excludes (CNA, PCA, PCT, LPN, scheduler, physician assistant).
+    if _EXCLUDE_RE.search(title) or _PA_RE.search(title):
+        return None
     if _RN_RE.search(title):
         return "RN"
     # Fall back to description only if the title was ambiguous but nurse-ish.
     blob = f"{title} {description}"
-    if _EXCLUDE_RE.search(title):  # title-level exclude already handled
-        return None
     if _APRN_RE.search(blob):
         return "APRN"
+    if _EXCLUDE_RE.search(title) or _PA_RE.search(title):
+        return None
     if _RN_RE.search(blob):
         return "RN"
     return None
