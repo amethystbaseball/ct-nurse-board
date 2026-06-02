@@ -42,5 +42,16 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "Refresh job feed ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-            git push
+            # Push, but if the remote moved while we were running (e.g. a web
+            # edit or an overlapping run), pull --rebase and retry rather than
+            # failing the whole run.
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "Pushed on attempt $attempt."
+                break
+              fi
+              echo "Push rejected; syncing with remote and retrying ($attempt)..."
+              git pull --rebase --autostash origin main || true
+              sleep 3
+            done
           fi
