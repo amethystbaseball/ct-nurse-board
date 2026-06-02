@@ -1,0 +1,195 @@
+<!-- ===================================================================== -->
+<!-- CT Nursing Jobs board - hosted page (served by GitHub Pages)           -->
+<!-- This file lives in your repo root next to jobs.json. Slate embeds it   -->
+<!-- via an <iframe>. Nothing to edit here.                                 -->
+<!-- ===================================================================== -->
+<div id="ctjobs-root">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  #ctjobs-root {
+    --blue:#00356b; --gold:#BD9B60; --ink:#23201a; --muted:#6f6754;
+    --parchment:#f4efe1; --card:#fdfbf6; --line:#e3dbc7;
+    font-family:'DM Sans',system-ui,sans-serif; color:var(--ink);
+    background:var(--parchment); margin:0;
+  }
+  #ctjobs-root * { box-sizing:border-box; }
+  #ctjobs-root .masthead { background:var(--blue); border-bottom:3px solid var(--gold);
+                           padding:2rem 1rem 1.6rem; }
+  #ctjobs-root .masthead .inner { max-width:1000px; margin:0 auto; }
+  #ctjobs-root .masthead h1 { font-family:'EB Garamond',Georgia,serif; font-weight:500;
+                              color:#fff; margin:0; font-size:2.1rem; letter-spacing:.01em; }
+  #ctjobs-root .masthead .meta { color:var(--gold); font-size:.85rem; margin-top:.45rem;
+                                 letter-spacing:.02em; }
+  #ctjobs-root .wrap { max-width:1000px; margin:0 auto; padding:1.75rem 1rem 0; }
+  #ctjobs-root .controls { display:flex; gap:.5rem; margin-bottom:1.25rem; flex-wrap:wrap; }
+  #ctjobs-root .controls input { flex:1; min-width:220px; padding:.6rem .8rem;
+                                 border:1px solid var(--line); border-radius:6px;
+                                 font-family:'DM Sans',sans-serif; font-size:.95rem;
+                                 background:var(--card); color:var(--ink); }
+  #ctjobs-root .controls input:focus { outline:none; border-color:var(--blue);
+                                       box-shadow:0 0 0 2px rgba(0,53,107,.12); }
+  #ctjobs-root .controls button { padding:.6rem 1rem; border:1px solid var(--line);
+                                  border-radius:6px; background:var(--card); cursor:pointer;
+                                  font-family:'DM Sans',sans-serif; font-size:.9rem;
+                                  font-weight:500; color:var(--blue); }
+  #ctjobs-root .controls button.active { background:var(--blue); color:#fff; border-color:var(--blue); }
+  #ctjobs-root .controls button.refresh { margin-left:auto; color:var(--blue); }
+  #ctjobs-root .controls button.refresh:hover { background:var(--blue); color:#fff; border-color:var(--blue); }
+  #ctjobs-root .controls button.refresh[disabled] { opacity:.5; cursor:default; }
+  #ctjobs-root .note { font-size:.8rem; color:var(--muted); margin:-.5rem 0 1.25rem; }
+  #ctjobs-root .note strong { color:var(--blue); }
+  #ctjobs-root table { width:100%; border-collapse:collapse; background:var(--card);
+                       border:1px solid var(--line); border-radius:8px; overflow:hidden;
+                       box-shadow:0 1px 3px rgba(35,32,26,.06); }
+  #ctjobs-root th, #ctjobs-root td { text-align:left; padding:.8rem .95rem;
+                                     border-bottom:1px solid var(--line);
+                                     font-size:.92rem; vertical-align:top; }
+  #ctjobs-root th { background:var(--blue); color:#fff; font-size:.72rem; font-weight:600;
+                    text-transform:uppercase; letter-spacing:.07em; }
+  #ctjobs-root tbody tr:nth-child(even) { background:rgba(189,155,96,.05); }
+  #ctjobs-root tr:last-child td { border-bottom:none; }
+  #ctjobs-root td a { color:var(--blue); text-decoration:none; font-weight:500; }
+  #ctjobs-root td a:hover { text-decoration:underline; text-decoration-color:var(--gold); }
+  #ctjobs-root .date { color:var(--muted); white-space:nowrap; }
+  #ctjobs-root .badge { display:inline-block; padding:.12rem .55rem; border-radius:3px;
+                        font-size:.7rem; font-weight:600; letter-spacing:.04em; }
+  #ctjobs-root .badge.rn { background:var(--blue); color:#fff; }
+  #ctjobs-root .badge.aprn { background:var(--gold); color:var(--blue); }
+  #ctjobs-root .state { padding:2rem 1rem; text-align:center; color:var(--muted);
+                        font-size:.95rem; }
+  #ctjobs-root .foot { max-width:1000px; margin:1.5rem auto 0; padding:1rem 1rem 2rem;
+                       border-top:1px solid var(--line); color:var(--muted);
+                       font-size:.78rem; line-height:1.5; }
+  #ctjobs-root .foot strong { color:var(--blue); }
+</style>
+
+  <header class="masthead"><div class="inner">
+    <h1>Connecticut Nursing Jobs</h1>
+    <div class="meta" id="ctjobs-meta">Loading...</div>
+  </div></header>
+
+  <div class="wrap">
+    <div class="controls">
+      <input id="ctjobs-q" type="search" placeholder="Filter by title, location, employer...">
+      <button data-f="ALL" class="active">All</button>
+      <button data-f="RN">RN</button>
+      <button data-f="APRN">APRN</button>
+      <button id="ctjobs-refresh" class="refresh">&#8635; Refresh</button>
+    </div>
+    <div class="note">Hit <strong>Refresh</strong> for the latest listings.</div>
+    <div id="ctjobs-state" class="state">Loading current listings...</div>
+    <table id="ctjobs-table" style="display:none"><thead><tr>
+      <th>Title</th><th>Role</th><th>Employer</th><th>Location</th><th>Posted</th>
+    </tr></thead><tbody id="ctjobs-rows"></tbody></table>
+  </div>
+
+  <div class="foot">
+    <strong>Disclaimer:</strong> This board aggregates publicly available job
+    listings from third-party hospital career websites. Yale School of Nursing
+    is not affiliated with these employers and is not responsible for the
+    content, accuracy, or availability of any third-party website. Listings may
+    be outdated, modified, or filled at any time. Students should verify all
+    details, including current availability, qualifications, and terms of
+    employment, directly with the prospective employer before applying.
+  </div>
+</div>
+
+<script>
+(function () {
+  // ---- Feed URL (same folder on GitHub Pages) ----
+  var FEED_URL = "jobs.json";
+
+  var rootEl  = document.getElementById("ctjobs-root");
+  var metaEl  = document.getElementById("ctjobs-meta");
+  var stateEl = document.getElementById("ctjobs-state");
+  var tableEl = document.getElementById("ctjobs-table");
+  var rowsEl  = document.getElementById("ctjobs-rows");
+  var qEl     = document.getElementById("ctjobs-q");
+
+  var allJobs = [];
+  var roleFilter = "ALL";
+
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function render() {
+    var term = qEl.value.trim().toLowerCase();
+    var html = "";
+    var shown = 0;
+    allJobs.forEach(function (j) {
+      if (roleFilter !== "ALL" && j.role !== roleFilter) return;
+      var hay = (j.title + " " + j.employer + " " + j.location).toLowerCase();
+      if (term && hay.indexOf(term) === -1) return;
+      shown++;
+      var badge = j.role === "APRN" ? "aprn" : "rn";
+      html +=
+        '<tr>' +
+          '<td><a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + '</a></td>' +
+          '<td><span class="badge ' + badge + '">' + esc(j.role) + '</span></td>' +
+          '<td>' + esc(j.employer) + '</td>' +
+          '<td>' + esc(j.location) + '</td>' +
+          '<td class="date">' + esc(j.posted) + '</td>' +
+        '</tr>';
+    });
+    rowsEl.innerHTML = html;
+    if (shown === 0) {
+      tableEl.style.display = "none";
+      stateEl.style.display = "";
+      stateEl.textContent = "No matching listings.";
+    } else {
+      stateEl.style.display = "none";
+      tableEl.style.display = "";
+    }
+  }
+
+  qEl.addEventListener("input", render);
+  var btns = rootEl.querySelectorAll(".controls button[data-f]");
+  Array.prototype.forEach.call(btns, function (b) {
+    b.addEventListener("click", function () {
+      Array.prototype.forEach.call(btns, function (x) { x.classList.remove("active"); });
+      b.classList.add("active");
+      roleFilter = b.getAttribute("data-f");
+      render();
+    });
+  });
+
+  var refreshEl = document.getElementById("ctjobs-refresh");
+
+  function loadFeed() {
+    refreshEl.disabled = true;
+    stateEl.style.display = "";
+    tableEl.style.display = "none";
+    stateEl.textContent = allJobs.length ? "Refreshing..." : "Loading current listings...";
+
+    fetch(FEED_URL, { cache: "no-store" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      })
+      .then(function (feed) {
+        allJobs = feed.jobs || [];
+        var c = feed.counts || { total: allJobs.length, rn: 0, aprn: 0 };
+        metaEl.textContent =
+          c.total + " open positions \u00B7 " + c.rn + " RN \u00B7 " + c.aprn +
+          " APRN \u00B7 updated " + (feed.generated_display || "");
+        render();
+      })
+      .catch(function (e) {
+        metaEl.textContent = "";
+        stateEl.style.display = "";
+        tableEl.style.display = "none";
+        stateEl.textContent = "Could not load listings right now. Please try again later.";
+        if (window.console) console.error("Job feed error:", e);
+      })
+      .then(function () { refreshEl.disabled = false; });
+  }
+
+  refreshEl.addEventListener("click", loadFeed);
+  loadFeed();
+})();
+</script>
