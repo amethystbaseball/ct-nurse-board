@@ -65,6 +65,17 @@ MAX_SEARCH_PAGES = 25          # safety cap per source
 # Broad on purpose; the classifier below does the precise RN/APRN bucketing.
 NURSE_KEYWORDS = ["registered nurse", "nurse practitioner", "APRN"]
 
+# Only keep listings whose location text contains one of these terms. This is
+# what filters out, e.g., Trinity's national Workday postings from other states.
+# Set TARGET_LOCATIONS = [] to keep every location.
+TARGET_LOCATIONS = ["CT", "Connecticut"]
+
+# Hide listings older than this many days from the board (they stay in the DB
+# archive, they just don't display). Healthcare portals leave "evergreen" reqs
+# open for a year or more; this keeps the board current. Raise it to show more
+# history, or set to a huge number (e.g. 36500) to effectively disable.
+MAX_AGE_DAYS = 60
+
 # Each source: a key, a display name, an adapter type, and a base URL.
 SOURCES = [
     {
@@ -192,6 +203,18 @@ def classify_role(title: str, description: str = "") -> Optional[str]:
     if _RN_RE.search(blob):
         return "RN"
     return None
+
+
+# Location filter: keep only listings whose location text matches a target.
+_LOC_RE = (re.compile("|".join(r"\b" + re.escape(t) + r"\b" for t in TARGET_LOCATIONS), re.I)
+           if TARGET_LOCATIONS else None)
+
+
+def is_target_location(location: str) -> bool:
+    """True if the listing is in a target location (or filtering is disabled)."""
+    if _LOC_RE is None:
+        return True
+    return bool(location) and bool(_LOC_RE.search(location))
 
 
 # --------------------------------------------------------------------------- #
@@ -607,6 +630,8 @@ def refresh(conn: sqlite3.Connection, only: Optional[str], verbose: bool) -> Non
 
         kept: list[Job] = []
         for job in raw_jobs:
+            if not is_target_location(job.location):
+                continue
             role = classify_role(job.title, job.description)
             if role:
                 job.role = role
@@ -618,11 +643,21 @@ def refresh(conn: sqlite3.Connection, only: Optional[str], verbose: bool) -> Non
               f"({new_count} new, {updated} updated, {stale} closed)")
 
 
-def export_html(conn: sqlite3.Connection, path: str) -> int:
-    rows = conn.execute(
+def _active_recent_rows(conn: sqlite3.Connection) -> list:
+    """Active listings no older than MAX_AGE_DAYS (undated ones are kept).
+
+    Newest first; undated listings sort to the bottom.
+    """
+    cutoff = (dt.date.today() - dt.timedelta(days=MAX_AGE_DAYS)).isoformat()
+    return conn.execute(
         "SELECT title, role, source_name, location, url, posted_at, first_seen "
-        "FROM jobs WHERE active=1 "
-        "ORDER BY (posted_at='' ), posted_at DESC, first_seen DESC").fetchall()
+        "FROM jobs WHERE active=1 AND (posted_at = '' OR posted_at >= ?) "
+        "ORDER BY (posted_at='' ), posted_at DESC, first_seen DESC",
+        (cutoff,)).fetchall()
+
+
+def export_html(conn: sqlite3.Connection, path: str) -> int:
+    rows = _active_recent_rows(conn)
 
     generated = dt.datetime.now().strftime("%B %d, %Y at %I:%M %p")
     esc = lambda s: html.escape(str(s or ""))
@@ -756,10 +791,7 @@ def export_html(conn: sqlite3.Connection, path: str) -> int:
 
 def export_json(conn: sqlite3.Connection, path: str) -> int:
     """Write the active jobs as a JSON feed for the Slate portal page to fetch."""
-    rows = conn.execute(
-        "SELECT title, role, source_name, location, url, posted_at, first_seen "
-        "FROM jobs WHERE active=1 "
-        "ORDER BY (posted_at='' ), posted_at DESC, first_seen DESC").fetchall()
+    rows = _active_recent_rows(conn)
 
     jobs = [{
         "title": title,
