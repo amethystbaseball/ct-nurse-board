@@ -116,6 +116,17 @@ SOURCES = [
         "host": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com",
         "site": "connecticutchildrenscareers",
     },
+    {
+        # Northwell (now operates the former Nuvance CT hospitals: Danbury,
+        # Norwalk, New Milford, Sharon). Public search is a Findly front-end,
+        # but the candidate system underneath is Oracle ORC (site CX_2). The CT
+        # filter trims Northwell's large NY footprint to its Connecticut sites.
+        "key": "northwell",
+        "name": "Northwell Health",
+        "adapter": "oracle",
+        "host": "https://eppr.fa.us2.oraclecloud.com",
+        "site": "CX_2",
+    },
     # Add more here. To add another Workday system, copy the Trinity block and
     # change host/tenant/site. Find those three by opening the system's careers
     # page: the URL looks like
