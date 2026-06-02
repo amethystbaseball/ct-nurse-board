@@ -40,6 +40,11 @@
   #ctjobs-root .controls button.refresh[disabled] { opacity:.5; cursor:default; }
   #ctjobs-root .note { font-size:.8rem; color:var(--muted); margin:-.5rem 0 1.25rem; }
   #ctjobs-root .note strong { color:var(--blue); }
+  #ctjobs-root .filters { display:flex; gap:.5rem; margin-bottom:1.25rem; flex-wrap:wrap; align-items:center; }
+  #ctjobs-root .filters select { padding:.55rem .7rem; border:1px solid var(--line); border-radius:6px;
+    font-family:'DM Sans',sans-serif; font-size:.9rem; background:var(--card); color:var(--ink); max-width:100%; }
+  #ctjobs-root .filters select:focus { outline:none; border-color:var(--blue); box-shadow:0 0 0 2px rgba(0,53,107,.12); }
+  #ctjobs-root .count { font-size:.82rem; color:var(--muted); margin-left:auto; }
   #ctjobs-root table { width:100%; border-collapse:collapse; background:var(--card);
                        border:1px solid var(--line); border-radius:8px; overflow:hidden;
                        box-shadow:0 1px 3px rgba(35,32,26,.06); }
@@ -72,13 +77,17 @@
 
   <div class="wrap">
     <div class="controls">
-      <input id="ctjobs-q" type="search" placeholder="Filter by title, location, employer...">
+      <input id="ctjobs-q" type="search" placeholder="Search title, location, employer...">
       <button data-f="ALL" class="active">All</button>
       <button data-f="RN">RN</button>
       <button data-f="APRN">APRN</button>
       <button id="ctjobs-refresh" class="refresh">&#8635; Refresh</button>
     </div>
-    <div class="note">Hit <strong>Refresh</strong> for the latest listings.</div>
+    <div class="filters">
+      <select id="ctjobs-employer"><option value="">All employers</option></select>
+      <select id="ctjobs-specialty"><option value="">All specialties</option></select>
+      <span id="ctjobs-count" class="count"></span>
+    </div>
     <div id="ctjobs-state" class="state">Loading current listings...</div>
     <table id="ctjobs-table" style="display:none"><thead><tr>
       <th>Title</th><th>Role</th><th>Employer</th><th>Location</th><th>Posted</th>
@@ -107,9 +116,39 @@
   var tableEl = document.getElementById("ctjobs-table");
   var rowsEl  = document.getElementById("ctjobs-rows");
   var qEl     = document.getElementById("ctjobs-q");
+  var empEl   = document.getElementById("ctjobs-employer");
+  var specEl  = document.getElementById("ctjobs-specialty");
+  var countEl = document.getElementById("ctjobs-count");
 
   var allJobs = [];
   var roleFilter = "ALL";
+  var employerFilter = "";
+  var specialtyFilter = "";
+
+  // Infer a clinical specialty from the job title (for the Specialty filter).
+  // Clinical area only; RN vs APRN is handled by the role buttons.
+  var SPECIALTIES = [
+    ["Emergency", /\bemergency\b|\bED\b|\bER\b|trauma/i],
+    ["Critical Care / ICU", /\bICU\b|critical care|intensive care|\bMICU\b|\bSICU\b|\bCCU\b|\bCVICU\b|step.?down/i],
+    ["Operating Room / Periop", /operating room|\bOR\b|periop|surgical services|\bPACU\b|pre.?op/i],
+    ["Labor & Delivery / Women's", /labor|delivery|\bL&D\b|obstetric|\bOB\b|women|maternity|postpartum|\bNICU\b|mother.?baby/i],
+    ["Oncology", /oncology|cancer|infusion|hematolog/i],
+    ["Pediatrics", /pediatric|\bpeds\b|children/i],
+    ["Psychiatric / Behavioral", /psych|mental health|behavioral/i],
+    ["Cardiac", /cardiac|cardiology|cath lab|telemetry/i],
+    ["Primary / Ambulatory", /primary care|ambulatory|clinic|outpatient|family (practice|medicine)/i],
+    ["Home Health / Hospice", /home health|hospice|home care|visiting/i],
+    ["Med/Surg", /med.?surg|medical.?surgical|medicine\b/i],
+    ["Case Mgmt / Coordination", /case manage|care coordinat|utilization|navigator/i],
+    ["Leadership / Education", /manager|director|educator|supervisor|coordinator|\blead\b|chief/i]
+  ];
+  function specialtyOf(title) {
+    var t = title || "";
+    for (var i = 0; i < SPECIALTIES.length; i++) {
+      if (SPECIALTIES[i][1].test(t)) return SPECIALTIES[i][0];
+    }
+    return "Other";
+  }
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -123,13 +162,19 @@
     var shown = 0;
     allJobs.forEach(function (j) {
       if (roleFilter !== "ALL" && j.role !== roleFilter) return;
+      if (employerFilter && j.employer !== employerFilter) return;
+      if (specialtyFilter && j._spec !== specialtyFilter) return;
       var hay = (j.title + " " + j.employer + " " + j.location).toLowerCase();
       if (term && hay.indexOf(term) === -1) return;
       shown++;
       var badge = j.role === "APRN" ? "aprn" : "rn";
+      var hasUrl = j.url && /^https?:\/\//i.test(j.url);
+      var titleCell = hasUrl
+        ? '<a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + '</a>'
+        : esc(j.title);
       html +=
         '<tr>' +
-          '<td><a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + '</a></td>' +
+          '<td>' + titleCell + '</td>' +
           '<td><span class="badge ' + badge + '">' + esc(j.role) + '</span></td>' +
           '<td>' + esc(j.employer) + '</td>' +
           '<td>' + esc(j.location) + '</td>' +
@@ -137,6 +182,7 @@
         '</tr>';
     });
     rowsEl.innerHTML = html;
+    countEl.textContent = "Showing " + shown + " of " + allJobs.length;
     if (shown === 0) {
       tableEl.style.display = "none";
       stateEl.style.display = "";
@@ -148,6 +194,8 @@
   }
 
   qEl.addEventListener("input", render);
+  empEl.addEventListener("change", function () { employerFilter = empEl.value; render(); });
+  specEl.addEventListener("change", function () { specialtyFilter = specEl.value; render(); });
   var btns = rootEl.querySelectorAll(".controls button[data-f]");
   Array.prototype.forEach.call(btns, function (b) {
     b.addEventListener("click", function () {
@@ -159,6 +207,29 @@
   });
 
   var refreshEl = document.getElementById("ctjobs-refresh");
+
+  function populateFilters() {
+    // Employers: alphabetical. Specialties: in the order defined above, plus Other.
+    var employers = {}, specs = {};
+    allJobs.forEach(function (j) {
+      if (j.employer) employers[j.employer] = true;
+      if (j._spec) specs[j._spec] = true;
+    });
+    var empList = Object.keys(employers).sort();
+    var order = SPECIALTIES.map(function (s) { return s[0]; }).concat(["Other"]);
+    var specList = order.filter(function (s) { return specs[s]; });
+
+    function fill(sel, items, keepFirst) {
+      while (sel.options.length > 1) sel.remove(1);
+      items.forEach(function (v) {
+        var o = document.createElement("option");
+        o.value = v; o.textContent = v;
+        sel.appendChild(o);
+      });
+    }
+    fill(empEl, empList);
+    fill(specEl, specList);
+  }
 
   function loadFeed() {
     refreshEl.disabled = true;
@@ -173,6 +244,8 @@
       })
       .then(function (feed) {
         allJobs = feed.jobs || [];
+        allJobs.forEach(function (j) { j._spec = specialtyOf(j.title); });
+        populateFilters();
         var c = feed.counts || { total: allJobs.length, rn: 0, aprn: 0 };
         metaEl.textContent =
           c.total + " open positions \u00B7 " + c.rn + " RN \u00B7 " + c.aprn +
