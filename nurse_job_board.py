@@ -102,6 +102,20 @@ SOURCES = [
         "tenant": "trinityhealth",
         "site": "Jobs",
     },
+    {
+        "key": "stamford",
+        "name": "Stamford Health",
+        "adapter": "oracle",
+        "host": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com",
+        "site": "Careers",
+    },
+    {
+        "key": "ctchildrens",
+        "name": "Connecticut Children's",
+        "adapter": "oracle",
+        "host": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com",
+        "site": "connecticutchildrenscareers",
+    },
     # Add more here. To add another Workday system, copy the Trinity block and
     # change host/tenant/site. Find those three by opening the system's careers
     # page: the URL looks like
@@ -555,10 +569,101 @@ def _workday_posted_date(value: str) -> str:
 
 
 # --------------------------------------------------------------------------- #
+# Adapter: Oracle Recruiting Cloud  (Stamford Health, Connecticut Children's)
+# --------------------------------------------------------------------------- #
+# Oracle's candidate-experience REST API:
+#   GET https://<host>/hcmRestApi/resources/latest/recruitingCEJobRequisitions
+#       ?finder=findReqs;siteNumber=<site>,limit=N,offset=O,keyword=<kw>...
+# Response: items[0].requisitionList[] with Id, Title, PrimaryLocation, PostedDate.
+# The public posting URL is built from the site + requisition Id.
+
+_oracle_dumped = {"done": False}
+
+
+def fetch_oracle(source: dict, session: requests.Session, verbose: bool) -> list[Job]:
+    host = source["host"].rstrip("/")
+    site = source["site"]
+    endpoint = f"{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions"
+    limit = 50
+    by_id: dict[str, Job] = {}
+
+    for kw in NURSE_KEYWORDS:
+        offset = 0
+        for _ in range(MAX_SEARCH_PAGES):
+            finder = (f"findReqs;siteNumber={site},"
+                      f"facetsList=LOCATIONS;TITLES;CATEGORIES;POSTING_DATES,"
+                      f"limit={limit},offset={offset},sortBy=POSTING_DATES_DESC,"
+                      f"keyword={kw}")
+            params = {
+                "onlyData": "true",
+                "expand": "requisitionList.secondaryLocations,flexFieldsFacet.values",
+                "finder": finder,
+            }
+            try:
+                resp = polite_get(session, endpoint, params=params,
+                                  headers={"Accept": "application/json"})
+            except requests.RequestException as e:
+                if verbose:
+                    print(f"  [oracle] request failed ({kw} @{offset}): {e}",
+                          file=sys.stderr)
+                break
+            if resp.status_code != 200:
+                if verbose:
+                    print(f"  [oracle] HTTP {resp.status_code} for {kw} @{offset}")
+                break
+            try:
+                data = resp.json()
+            except ValueError:
+                break
+
+            items = data.get("items") or []
+            block = items[0] if items else {}
+            reqs = block.get("requisitionList") or []
+            total = block.get("TotalJobsCount", 0)
+
+            if verbose and not _oracle_dumped["done"]:
+                _oracle_dumped["done"] = True
+                print(f"  [oracle] TotalJobsCount={total}; "
+                      f"sample req keys: {sorted(reqs[0].keys()) if reqs else '(none)'}")
+
+            if not reqs:
+                break
+
+            for r in reqs:
+                jid = str(r.get("Id") or r.get("RequisitionId") or "")
+                if not jid or jid in by_id:
+                    continue
+                loc = r.get("PrimaryLocation") or ""
+                if not loc:
+                    sec = r.get("secondaryLocations") or []
+                    loc = ", ".join(s.get("Name", "") for s in sec if isinstance(s, dict))
+                url = f"{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{jid}"
+                by_id[jid] = Job(
+                    source_key=source["key"],
+                    source_name=source["name"],
+                    external_id=jid,
+                    title=(r.get("Title") or "").strip(),
+                    location=loc,
+                    url=url,
+                    posted_at=_iso_date(r.get("PostedDate") or ""),
+                )
+
+            if verbose:
+                print(f"  [oracle] '{kw}' @{offset}: {len(reqs)} rows "
+                      f"({len(by_id)} total)")
+            offset += limit
+            if (total and offset >= total) or len(reqs) < limit:
+                break
+
+    return list(by_id.values())
+
+
+# --------------------------------------------------------------------------- #
 # Shared helpers
 # --------------------------------------------------------------------------- #
 
-ADAPTERS = {"icims": fetch_icims, "phenom": fetch_phenom, "workday": fetch_workday}
+ADAPTERS = {"icims": fetch_icims, "phenom": fetch_phenom,
+            "workday": fetch_workday, "oracle": fetch_oracle}
 
 
 def _strip_html(text: str) -> str:
