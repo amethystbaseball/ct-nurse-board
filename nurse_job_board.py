@@ -43,6 +43,7 @@ import re
 import sqlite3
 import sys
 import time
+import urllib.parse
 from typing import Iterable, Optional
 
 import requests
@@ -116,6 +117,23 @@ SOURCES = [
         "adapter": "oracle",
         "host": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com",
         "site": "connecticutchildrenscareers",
+    },
+    {
+        # National Labor Exchange aggregate via the CareerOneStop API. Fills the
+        # holdouts we can't scrape directly (UConn Health, Nuvance/Northwell CT,
+        # community hospitals) through a sanctioned channel. Needs COS_USERID +
+        # COS_TOKEN. exclude_employers drops the systems we already pull direct
+        # so this only ADDS new employers rather than duplicating listings.
+        "key": "careeronestop",
+        "name": "CareerOneStop (NLx)",
+        "adapter": "careeronestop",
+        "location": "CT",
+        "radius": 50,
+        "days": 30,
+        "exclude_employers": [
+            "yale new haven", "hartford healthcare", "trinity health",
+            "stamford health", "connecticut children", "veterans affairs",
+        ],
     },
     {
         # VA Connecticut (West Haven, Newington) plus other CT federal nursing
@@ -764,12 +782,121 @@ def fetch_usajobs(source: dict, session: requests.Session, verbose: bool) -> lis
 
 
 # --------------------------------------------------------------------------- #
+# Adapter: CareerOneStop  (National Labor Exchange aggregate feed)
+# --------------------------------------------------------------------------- #
+# Official U.S. DOL API. Data is the National Labor Exchange (state job banks +
+# private employers), so it reaches employers we can't scrape directly (UConn
+# Health via the CT state job bank, Nuvance/Northwell CT via syndication, etc.).
+# Because it's an aggregator, it ALSO carries the systems we already pull
+# directly, so we drop those by name to avoid duplicate listings and keep this
+# as a pure gap-filler. Each job's real employer is preserved as source_name so
+# it shows on the board under its own name (e.g. "UConn Health"), while all
+# CareerOneStop jobs share source_key="careeronestop" for stale-deactivation.
+#
+# Needs COS_USERID + COS_TOKEN env vars (GitHub secrets). Skips cleanly if unset.
+# Endpoint: /v1/jobsearch/{userId}/{keyword}/{location}/{radius}/{sortColumns}/
+#           {sortOrder}/{startRecord}/{pageSize}/{days}
+
+_COS_DIAG_DONE = False
+
+def fetch_careeronestop(source: dict, session: requests.Session,
+                        verbose: bool) -> list[Job]:
+    global _COS_DIAG_DONE
+    user_id = os.environ.get("COS_USERID", "").strip()
+    token = os.environ.get("COS_TOKEN", "").strip()
+    if not user_id or not token:
+        print("   [careeronestop] skipped: set COS_USERID and COS_TOKEN "
+              "(GitHub repo secrets) to enable this source.")
+        return []
+
+    base = "https://api.careeronestop.org/v1/jobsearch"
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/json"}
+    location = source.get("location", "CT")
+    radius = str(source.get("radius", 50))
+    days = str(source.get("days", 30))
+    page_size = 100
+    # Employers we already pull directly; drop them so we don't double-list.
+    exclude = [e.lower() for e in source.get("exclude_employers", [])]
+
+    def quote(s: str) -> str:
+        return urllib.parse.quote(str(s), safe="")
+
+    by_id: dict[str, Job] = {}
+    excluded = 0
+    for kw in NURSE_KEYWORDS:
+        start = 0
+        for _ in range(MAX_SEARCH_PAGES):
+            path = "/".join([base, quote(user_id), quote(kw), quote(location),
+                             radius, "0", "0", str(start), str(page_size), days])
+            try:
+                resp = polite_get(session, path, headers=headers)
+            except requests.RequestException as e:
+                if verbose:
+                    print(f"  [careeronestop] request failed ({kw} @{start}): {e}",
+                          file=sys.stderr)
+                break
+            if resp.status_code != 200:
+                if verbose:
+                    body = (resp.text or "")[:160].replace("\n", " ")
+                    print(f"  [careeronestop] HTTP {resp.status_code} ({kw} @{start}): {body}")
+                break
+            try:
+                data = resp.json()
+            except ValueError:
+                break
+
+            jobs = data.get("Jobs") or []
+            try:
+                total = int(str(data.get("Jobcount", "0")).strip() or "0")
+            except ValueError:
+                total = 0
+
+            if verbose and not _COS_DIAG_DONE:
+                _COS_DIAG_DONE = True
+                print(f"  [careeronestop] response keys: {list(data.keys())}")
+                if jobs:
+                    print(f"  [careeronestop] sample job keys: {list(jobs[0].keys())}")
+
+            if not jobs:
+                break
+
+            for j in jobs:
+                company = (j.get("Company") or "").strip()
+                if exclude and any(tok in company.lower() for tok in exclude):
+                    excluded += 1
+                    continue
+                jid = str(j.get("JvId") or j.get("JvID") or "").strip()
+                if not jid or jid in by_id:
+                    continue
+                posted = (j.get("AccquisitionDate") or j.get("AcquisitionDate")
+                          or j.get("PostedDate") or "")
+                by_id[jid] = Job(
+                    source_key=source["key"],
+                    source_name=company or source["name"],
+                    external_id=jid,
+                    title=(j.get("JobTitle") or "").strip(),
+                    location=(j.get("Location") or "").strip(),
+                    url=(j.get("URL") or "").strip(),
+                    posted_at=_iso_date(posted),
+                )
+
+            if verbose:
+                print(f"  [careeronestop] '{kw}' @{start}: {len(jobs)} rows "
+                      f"({len(by_id)} kept, {excluded} excluded so far)")
+            start += page_size
+            if (total and start >= total) or len(jobs) < page_size:
+                break
+
+    return list(by_id.values())
+
+
+# --------------------------------------------------------------------------- #
 # Shared helpers
 # --------------------------------------------------------------------------- #
 
 ADAPTERS = {"icims": fetch_icims, "phenom": fetch_phenom,
             "workday": fetch_workday, "oracle": fetch_oracle,
-            "usajobs": fetch_usajobs}
+            "usajobs": fetch_usajobs, "careeronestop": fetch_careeronestop}
 
 
 def _strip_html(text: str) -> str:
