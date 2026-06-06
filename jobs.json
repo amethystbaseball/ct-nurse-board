@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-06T16:03:03",
-  "generated_display": "June 06, 2026 at 04:03 PM",
+  "generated_at": "2026-06-06T21:47:42",
+  "generated_display": "June 06, 2026 at 09:47 PM",
   "counts": {
-    "total": 559,
-    "rn": 433,
+    "total": 558,
+    "rn": 432,
     "aprn": 126
   },
   "jobs": [
@@ -1268,7 +1268,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "New Britain, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158237/registered-nurse-acute-rn-neonatal-intensive-care-unit-nicu",
+      "url": "https://www.hhccareers.org/us/en/job/26158269/registered-nurse-acute-rn-neonatal-intensive-care-unit-nicu",
       "posted": "2026-05-27"
     },
     {
@@ -1496,14 +1496,6 @@
       "posted": "2026-05-22"
     },
     {
-      "title": "Registered Nurse (RN) - Medicine StepDown",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158080/registered-nurse-rn-medicine-stepdown",
-      "posted": "2026-05-22"
-    },
-    {
       "title": "Registered Nurse (RN) -  Med Surg",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1725,6 +1717,14 @@
       "employer": "Hartford HealthCare",
       "location": "Norwich, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26157960/registered-nurse-rn-or-general-surgery",
+      "posted": "2026-05-20"
+    },
+    {
+      "title": "Registered Nurse (RN)- OR General Surgery",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26157980/registered-nurse-rn-or-general-surgery",
       "posted": "2026-05-20"
     },
     {
@@ -1976,6 +1976,14 @@
       "posted": "2026-05-18"
     },
     {
+      "title": "Registered Nurse (RN) - Medicine StepDown",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26157820/registered-nurse-rn-medicine-stepdown",
+      "posted": "2026-05-18"
+    },
+    {
       "title": "Registered Nurse (RN) - Med Surg A3",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2120,19 +2128,19 @@
       "posted": "2026-05-15"
     },
     {
+      "title": "Registered Nurse (RN) - Adolescent Psych",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Westport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26157760/registered-nurse-rn-adolescent-psych",
+      "posted": "2026-05-15"
+    },
+    {
       "title": "Registered Nurse (RN, GN)  - Medicine Units",
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26157757/registered-nurse-rn-gn-medicine-units",
-      "posted": "2026-05-15"
-    },
-    {
-      "title": "Registered Nurse (RN)-  OR General Surgery",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26157766/registered-nurse-rn-or-general-surgery",
       "posted": "2026-05-15"
     },
     {
@@ -2516,7 +2524,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26157480/registered-nurse-rn-or-ambulatory-pacu",
+      "url": "https://www.hhccareers.org/us/en/job/26157478/registered-nurse-rn-or-ambulatory-pacu",
       "posted": "2026-05-12"
     },
     {
@@ -3608,14 +3616,6 @@
       "posted": "2026-04-28"
     },
     {
-      "title": "Registered Nurse (RN) - Inpatient Child/Adolescent Unit",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Mansfield Center, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26156830/registered-nurse-rn-inpatient-child-adolescent-unit",
-      "posted": "2026-04-28"
-    },
-    {
       "title": "RN Oncology Infusion",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -3916,7 +3916,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26156449/registered-nurse-rn-neurosurgical-icu",
+      "url": "https://www.hhccareers.org/us/en/job/26156452/registered-nurse-rn-neurosurgical-icu",
       "posted": "2026-04-21"
     },
     {
@@ -4117,6 +4117,14 @@
       "employer": "Connecticut Children's",
       "location": "Farmington, CT, United States",
       "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/4869",
+      "posted": "2026-04-16"
+    },
+    {
+      "title": "Registered Nurse (RN) -OR General Surgery",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26156204/registered-nurse-rn-or-general-surgery",
       "posted": "2026-04-16"
     },
     {
@@ -4392,14 +4400,6 @@
       "posted": "2026-04-08"
     },
     {
-      "title": "Registered Nurse (RN) -OR General Surgery",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26155851/registered-nurse-rn-or-general-surgery",
-      "posted": "2026-04-08"
-    },
-    {
       "title": "Nurse Manager (RN) - Child Inpatient",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -4429,14 +4429,6 @@
       "employer": "Yale New Haven Health",
       "location": "Greenwich, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/81473",
-      "posted": "2026-04-07"
-    },
-    {
-      "title": "Registered Nurse (RN) - NICU",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26155748/registered-nurse-rn-nicu",
       "posted": "2026-04-07"
     },
     {
