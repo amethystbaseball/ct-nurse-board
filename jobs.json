@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-06-08T23:06:48",
-  "generated_display": "June 08, 2026 at 11:06 PM",
+  "generated_at": "2026-06-09T11:47:58",
+  "generated_display": "June 09, 2026 at 11:47 AM",
   "counts": {
-    "total": 557,
-    "rn": 430,
+    "total": 551,
+    "rn": 424,
     "aprn": 127
   },
   "jobs": [
+    {
+      "title": "Pediatric CICU APP",
+      "role": "APRN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/82651",
+      "posted": "2026-06-09"
+    },
     {
       "title": "Nurse Practitioner - Non-Invasive Cardiology - Full time",
       "role": "APRN",
@@ -4144,14 +4152,6 @@
       "posted": "2026-04-16"
     },
     {
-      "title": "Registered Nurse (RN) -OR General Surgery",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26156204/registered-nurse-rn-or-general-surgery",
-      "posted": "2026-04-16"
-    },
-    {
       "title": "Registered Nurse (RN) - Float Pool",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -4382,54 +4382,6 @@
       "location": "Bridgeport, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26156003/orthopedic-surgery-per-diem-physician-assistant-pa-or-nurse-practitioner-aprn",
       "posted": "2026-04-10"
-    },
-    {
-      "title": "Primary Care - Nurse Practitioner and Physician Assistant",
-      "role": "APRN",
-      "employer": "Hartford HealthCare",
-      "location": "Manchester, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26155877/primary-care-nurse-practitioner-and-physician-assistant",
-      "posted": "2026-04-09"
-    },
-    {
-      "title": "Registered Nurse New Graduate Medicine",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87138",
-      "posted": "2026-04-09"
-    },
-    {
-      "title": "RN-Adult Acute Care Medicine with Telemetry SLA 4; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/76114",
-      "posted": "2026-04-09"
-    },
-    {
-      "title": "Registered Nurse SPOR; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/82440",
-      "posted": "2026-04-09"
-    },
-    {
-      "title": "Home Infusion RN (Casual)",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87139",
-      "posted": "2026-04-09"
-    },
-    {
-      "title": "Per diem RN - Interventional Psychiatry; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Greenwich, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87129",
-      "posted": "2026-04-09"
     },
     {
       "title": "Nurse Manager – Emergency Room",
