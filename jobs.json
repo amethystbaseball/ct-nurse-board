@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-10T23:20:00",
-  "generated_display": "June 10, 2026 at 11:20 PM",
+  "generated_at": "2026-06-11T13:09:01",
+  "generated_display": "June 11, 2026 at 01:09 PM",
   "counts": {
-    "total": 550,
-    "rn": 427,
+    "total": 549,
+    "rn": 426,
     "aprn": 123
   },
   "jobs": [
@@ -492,7 +492,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Willimantic, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158817/rn-emergency-department",
+      "url": "https://www.hhccareers.org/us/en/job/26158822/rn-emergency-department",
       "posted": "2026-06-05"
     },
     {
@@ -1452,7 +1452,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158318/registered-nurse-rn-l-d",
+      "url": "https://www.hhccareers.org/us/en/job/26158324/registered-nurse-rn-l-d",
       "posted": "2026-05-28"
     },
     {
@@ -1628,7 +1628,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "New Britain, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158237/registered-nurse-acute-rn-neonatal-intensive-care-unit-nicu",
+      "url": "https://www.hhccareers.org/us/en/job/26158269/registered-nurse-acute-rn-neonatal-intensive-care-unit-nicu",
       "posted": "2026-05-27"
     },
     {
@@ -1845,14 +1845,6 @@
       "employer": "Hartford HealthCare",
       "location": "Bridgeport, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158094/registered-nurse-rn-breast",
-      "posted": "2026-05-22"
-    },
-    {
-      "title": "Registered Nurse (RN) - Medicine StepDown",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158080/registered-nurse-rn-medicine-stepdown",
       "posted": "2026-05-22"
     },
     {
@@ -2285,6 +2277,14 @@
       "employer": "Hartford HealthCare",
       "location": "Vernon, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26157830/registered-nurse-nephrology-mh",
+      "posted": "2026-05-18"
+    },
+    {
+      "title": "Registered Nurse (RN) - Medicine StepDown",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26157820/registered-nurse-rn-medicine-stepdown",
       "posted": "2026-05-18"
     },
     {
@@ -3456,14 +3456,6 @@
       "posted": "2026-05-01"
     },
     {
-      "title": "Critical Care Float Pool RN Part-Time Night Shift Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87630",
-      "posted": "2026-05-01"
-    },
-    {
       "title": "Outpatient Pediatric Urology Technician",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -4092,7 +4084,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26156449/registered-nurse-rn-neurosurgical-icu",
+      "url": "https://www.hhccareers.org/us/en/job/26156452/registered-nurse-rn-neurosurgical-icu",
       "posted": "2026-04-21"
     },
     {
@@ -4264,6 +4256,14 @@
       "posted": "2026-04-16"
     },
     {
+      "title": "Registered Nurse (RN) -OR General Surgery",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26156200/registered-nurse-rn-or-general-surgery",
+      "posted": "2026-04-16"
+    },
+    {
       "title": "Registered Nurse (RN) - OR General Surgery",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -4333,14 +4333,6 @@
       "employer": "Hartford HealthCare",
       "location": "Meriden, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26156144/registered-nurse-rn-med-surg",
-      "posted": "2026-04-14"
-    },
-    {
-      "title": "Registered Nurse (RN) - OR General Surgery",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Willimantic, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26156123/registered-nurse-rn-or-general-surgery",
       "posted": "2026-04-14"
     },
     {
