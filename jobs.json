@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-06-12T23:06:53",
-  "generated_display": "June 12, 2026 at 11:06 PM",
+  "generated_at": "2026-06-13T10:17:47",
+  "generated_display": "June 13, 2026 at 10:17 AM",
   "counts": {
-    "total": 563,
-    "rn": 443,
-    "aprn": 120
+    "total": 559,
+    "rn": 440,
+    "aprn": 119
   },
   "jobs": [
+    {
+      "title": "Colorectal Surgery RN Temp - Stamford",
+      "role": "RN",
+      "employer": "Stamford Health",
+      "location": "Stamford, CT, United States",
+      "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6065",
+      "posted": "2026-06-13"
+    },
     {
       "title": "PT Days OR Assistant",
       "role": "RN",
@@ -477,14 +485,6 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6216",
-      "posted": "2026-06-08"
-    },
-    {
-      "title": "REGISTERED NURSE-Maternity and Newborn RN",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87675",
       "posted": "2026-06-08"
     },
     {
@@ -1101,14 +1101,6 @@
       "employer": "Yale New Haven Health",
       "location": "New Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88542",
-      "posted": "2026-06-01"
-    },
-    {
-      "title": "Registered Nurse (Patient Aligned Care Team)",
-      "role": "RN",
-      "employer": "VA Connecticut (Federal)",
-      "location": "Waterbury, Connecticut",
-      "url": "https://www.usajobs.gov:443/job/871226100",
       "posted": "2026-06-01"
     },
     {
@@ -4462,30 +4454,6 @@
       "location": "Willimantic, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26156109/registered-nurse-rn-shea-per-diem",
       "posted": "2026-04-14"
-    },
-    {
-      "title": "Medicine to MICU Registered Nurse Pathway Program",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87172",
-      "posted": "2026-04-13"
-    },
-    {
-      "title": "Advance Practice Nurse, Ambulatory - Melanoma Renal Oncology",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/86772",
-      "posted": "2026-04-13"
-    },
-    {
-      "title": "Home Health- Registered Nurse- Waterford",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Waterford, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/86752",
-      "posted": "2026-04-13"
     },
     {
       "title": "Operating Room RN",
