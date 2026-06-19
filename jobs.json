@@ -1,12 +1,68 @@
 {
-  "generated_at": "2026-06-18T12:36:31",
-  "generated_display": "June 18, 2026 at 12:36 PM",
+  "generated_at": "2026-06-19T00:16:21",
+  "generated_display": "June 19, 2026 at 12:16 AM",
   "counts": {
-    "total": 535,
-    "rn": 418,
-    "aprn": 117
+    "total": 539,
+    "rn": 421,
+    "aprn": 118
   },
   "jobs": [
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-Nurse_00649765",
+      "posted": "2026-06-19"
+    },
+    {
+      "title": "Registered Nurse Manager",
+      "role": "RN",
+      "employer": "VA Connecticut (Federal)",
+      "location": "West Haven, Connecticut",
+      "url": "https://www.usajobs.gov:443/job/873659700",
+      "posted": "2026-06-18"
+    },
+    {
+      "title": "Quality Management Consultant Registered Nurse",
+      "role": "RN",
+      "employer": "VA Connecticut (Federal)",
+      "location": "West Haven, Connecticut",
+      "url": "https://www.usajobs.gov:443/job/873727000",
+      "posted": "2026-06-18"
+    },
+    {
+      "title": "Inpatient Med Psych- Staff Nurse- Evening Shift- 36hr",
+      "role": "RN",
+      "employer": "Connecticut Children's",
+      "location": "Hartford, CT, United States",
+      "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/4303",
+      "posted": "2026-06-18"
+    },
+    {
+      "title": "Surgical Oncology Practice Nurse; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Trumbull, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/88942",
+      "posted": "2026-06-18"
+    },
+    {
+      "title": "HVC Procedures APP",
+      "role": "APRN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/86136",
+      "posted": "2026-06-18"
+    },
+    {
+      "title": "Home Health -Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Waterford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/88725",
+      "posted": "2026-06-18"
+    },
     {
       "title": "Registered Nurse-Home Based Primary Care",
       "role": "RN",
@@ -285,6 +341,14 @@
       "employer": "Yale New Haven Health",
       "location": "New London, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88877",
+      "posted": "2026-06-16"
+    },
+    {
+      "title": "RN; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Madison, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/88922",
       "posted": "2026-06-16"
     },
     {
@@ -789,14 +853,6 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6142",
-      "posted": "2026-06-09"
-    },
-    {
-      "title": "Ambulatory Care Associate Apheresis/Photopheresis",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/84811",
       "posted": "2026-06-09"
     },
     {
@@ -1432,12 +1488,28 @@
       "posted": "2026-06-02"
     },
     {
+      "title": "Registered Nurse RN Surgical Cardiology",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-RN-Surgical-Cardiology_00670823",
+      "posted": "2026-06-02"
+    },
+    {
       "title": "RN Emergency Department",
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Norwich, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158566/rn-emergency-department",
       "posted": "2026-06-02"
+    },
+    {
+      "title": "Rehab Admissions Coordinator - Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New London, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/88482",
+      "posted": "2026-06-01"
     },
     {
       "title": "Registered Nurse (RN) - Neuro Surgical ICU",
@@ -1493,14 +1565,6 @@
       "employer": "Yale New Haven Health",
       "location": "Guilford, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88432",
-      "posted": "2026-06-01"
-    },
-    {
-      "title": "Rehab Admissions Coordinator",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/88482",
       "posted": "2026-06-01"
     },
     {
@@ -1581,14 +1645,6 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6101",
-      "posted": "2026-06-01"
-    },
-    {
-      "title": "Registered Nurse RN Surgical Cardiology",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-RN-Surgical-Cardiology_00670823",
       "posted": "2026-06-01"
     },
     {
@@ -1925,6 +1981,14 @@
       "employer": "Yale New Haven Health",
       "location": "Trumbull, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88377",
+      "posted": "2026-05-28"
+    },
+    {
+      "title": "ED Technician",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/88410",
       "posted": "2026-05-28"
     },
     {
@@ -2512,14 +2576,6 @@
       "posted": "2026-05-20"
     },
     {
-      "title": "New Graduate Nurse-Inpatient RN to ED Bridge Program",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/71732",
-      "posted": "2026-05-19"
-    },
-    {
       "title": "Advanced Practice Provider",
       "role": "APRN",
       "employer": "Yale New Haven Health",
@@ -2904,14 +2960,6 @@
       "posted": "2026-05-14"
     },
     {
-      "title": "RN; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Madison, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87988",
-      "posted": "2026-05-14"
-    },
-    {
       "title": "REGISTERED NURSE-Interventional Radiology Pre/Post-Per Diem",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -3264,14 +3312,6 @@
       "posted": "2026-05-08"
     },
     {
-      "title": "Infusion RN; Registered Nurse-Part-time",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Greenwich, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87640",
-      "posted": "2026-05-07"
-    },
-    {
       "title": "RN; Registered Nurse-Transplant",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -3341,14 +3381,6 @@
       "employer": "Yale New Haven Health",
       "location": "Trumbull, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/87706",
-      "posted": "2026-05-06"
-    },
-    {
-      "title": "Adult Acute Care Medicine EP 9-7 SNCA",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87732",
       "posted": "2026-05-06"
     },
     {
