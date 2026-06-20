@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-20T13:33:44",
-  "generated_display": "June 20, 2026 at 01:33 PM",
+  "generated_at": "2026-06-20T19:16:32",
+  "generated_display": "June 20, 2026 at 07:16 PM",
   "counts": {
-    "total": 556,
-    "rn": 435,
+    "total": 555,
+    "rn": 434,
     "aprn": 121
   },
   "jobs": [
@@ -920,6 +920,14 @@
       "posted": "2026-06-11"
     },
     {
+      "title": "Registered Nurse (RN) - Inpatient Child/Adolescent Unit",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Mansfield Center, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26159093/registered-nurse-rn-inpatient-child-adolescent-unit",
+      "posted": "2026-06-11"
+    },
+    {
       "title": "Registered Nurse (RN) - Older Adult Inpatient",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -997,14 +1005,6 @@
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26159044/registered-nurse-rn-gn-neuro-surgical",
-      "posted": "2026-06-10"
-    },
-    {
-      "title": "Registered Nurse (RN) - Inpatient Child/Adolescent Unit",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Mansfield Center, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159054/registered-nurse-rn-inpatient-child-adolescent-unit",
       "posted": "2026-06-10"
     },
     {
@@ -1368,6 +1368,14 @@
       "posted": "2026-06-05"
     },
     {
+      "title": "Registered Nurse (RN) - Med Surg",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "New Britain, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26158777/registered-nurse-rn-med-surg",
+      "posted": "2026-06-05"
+    },
+    {
       "title": "Registered Nurse (RN) - Emergency Room",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1388,7 +1396,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Willimantic, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158817/rn-emergency-department",
+      "url": "https://www.hhccareers.org/us/en/job/26158822/rn-emergency-department",
       "posted": "2026-06-05"
     },
     {
@@ -1525,14 +1533,6 @@
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158699/registered-nurse-rn-medicine-stepdown",
-      "posted": "2026-06-04"
-    },
-    {
-      "title": "Registered Nurse (RN) - Med Surg",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "New Britain, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158727/registered-nurse-rn-med-surg",
       "posted": "2026-06-04"
     },
     {
@@ -2765,14 +2765,6 @@
       "employer": "Hartford HealthCare",
       "location": "Norwich, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26157960/registered-nurse-rn-or-general-surgery",
-      "posted": "2026-05-20"
-    },
-    {
-      "title": "Registered Nurse (RN)- OR General Surgery",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26157980/registered-nurse-rn-or-general-surgery",
       "posted": "2026-05-20"
     },
     {
