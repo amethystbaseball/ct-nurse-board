@@ -1,20 +1,12 @@
 {
-  "generated_at": "2026-06-21T02:53:28",
-  "generated_display": "June 21, 2026 at 02:53 AM",
+  "generated_at": "2026-06-21T09:40:45",
+  "generated_display": "June 21, 2026 at 09:40 AM",
   "counts": {
     "total": 551,
     "rn": 431,
     "aprn": 120
   },
   "jobs": [
-    {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00668636-1",
-      "posted": "2026-06-20"
-    },
     {
       "title": "Orthopaedics- Registered Nurse-Ambulatory- 24hr",
       "role": "RN",
@@ -141,6 +133,14 @@
       "employer": "Yale New Haven Health",
       "location": "Greenwich, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/87775",
+      "posted": "2026-06-19"
+    },
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00668636-1",
       "posted": "2026-06-19"
     },
     {
@@ -1760,14 +1760,6 @@
       "posted": "2026-06-02"
     },
     {
-      "title": "Registered Nurse RN Surgical Cardiology",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-RN-Surgical-Cardiology_00670823",
-      "posted": "2026-06-02"
-    },
-    {
       "title": "Registered Nurse (RN) - Orthopedics",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1933,6 +1925,14 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6101",
+      "posted": "2026-06-01"
+    },
+    {
+      "title": "Registered Nurse RN Surgical Cardiology",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-RN-Surgical-Cardiology_00670823",
       "posted": "2026-06-01"
     },
     {
