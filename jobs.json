@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-23T02:31:18",
-  "generated_display": "June 23, 2026 at 02:31 AM",
+  "generated_at": "2026-06-23T09:03:56",
+  "generated_display": "June 23, 2026 at 09:03 AM",
   "counts": {
-    "total": 542,
-    "rn": 424,
+    "total": 543,
+    "rn": 425,
     "aprn": 118
   },
   "jobs": [
@@ -102,14 +102,6 @@
       "location": "New Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/73868",
       "posted": "2026-06-21"
-    },
-    {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00668636-1",
-      "posted": "2026-06-20"
     },
     {
       "title": "Registered Nurse (RN) - PCU E3",
@@ -253,6 +245,14 @@
       "employer": "Yale New Haven Health",
       "location": "Greenwich, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/87775",
+      "posted": "2026-06-19"
+    },
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00668636-1",
       "posted": "2026-06-19"
     },
     {
@@ -1848,14 +1848,6 @@
       "posted": "2026-06-02"
     },
     {
-      "title": "Registered Nurse RN Surgical Cardiology",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-RN-Surgical-Cardiology_00670823",
-      "posted": "2026-06-02"
-    },
-    {
       "title": "Registered Nurse (RN) - Orthopedics",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1878,6 +1870,14 @@
       "location": "Norwich, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158566/rn-emergency-department",
       "posted": "2026-06-02"
+    },
+    {
+      "title": "Registered Nurse (RN) ICU",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Manchester, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26158489/registered-nurse-rn-icu",
+      "posted": "2026-06-01"
     },
     {
       "title": "Rehab Admissions Coordinator - Registered Nurse",
@@ -2013,6 +2013,14 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6101",
+      "posted": "2026-06-01"
+    },
+    {
+      "title": "Registered Nurse RN Surgical Cardiology",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-RN-Surgical-Cardiology_00670823",
       "posted": "2026-06-01"
     },
     {
