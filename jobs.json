@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-06-24T08:58:12",
-  "generated_display": "June 24, 2026 at 08:58 AM",
+  "generated_at": "2026-06-24T14:12:33",
+  "generated_display": "June 24, 2026 at 02:12 PM",
   "counts": {
-    "total": 533,
+    "total": 532,
     "rn": 420,
-    "aprn": 113
+    "aprn": 112
   },
   "jobs": [
+    {
+      "title": "Emergency Dept. RN-Registered Nurse- Part Time- Nights",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/83717",
+      "posted": "2026-06-24"
+    },
     {
       "title": "Registered Nurse-Inpatient Mental Health",
       "role": "RN",
@@ -85,14 +93,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/87739",
-      "posted": "2026-06-23"
-    },
-    {
-      "title": "REGISTERED NURSE-Medicine/Telemetry RN",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89038",
       "posted": "2026-06-23"
     },
     {
@@ -2853,14 +2853,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/87932",
-      "posted": "2026-05-20"
-    },
-    {
-      "title": "ED Tech II",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/86663",
       "posted": "2026-05-20"
     },
     {
