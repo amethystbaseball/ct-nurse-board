@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-07-02T08:49:11",
-  "generated_display": "July 02, 2026 at 08:49 AM",
+  "generated_at": "2026-07-02T13:43:37",
+  "generated_display": "July 02, 2026 at 01:43 PM",
   "counts": {
     "total": 539,
-    "rn": 422,
-    "aprn": 117
+    "rn": 423,
+    "aprn": 116
   },
   "jobs": [
+    {
+      "title": "Pediatric GYN/Adoles Med RN Coordinator",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Trumbull, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89149",
+      "posted": "2026-07-02"
+    },
     {
       "title": "Physician Assistant or Nurse Practitioner (APRN) / Neuro Stroke Hartford",
       "role": "APRN",
@@ -2773,14 +2781,6 @@
       "employer": "Yale New Haven Health",
       "location": "Hamden, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88566",
-      "posted": "2026-06-01"
-    },
-    {
-      "title": "Nurse Practitioner/Physician Assistant-Emergency Department-32 Hours",
-      "role": "APRN",
-      "employer": "Connecticut Children's",
-      "location": "Hartford, CT, United States",
-      "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/5010",
       "posted": "2026-06-01"
     },
     {
