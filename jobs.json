@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T15:16:54",
-  "generated_display": "July 06, 2026 at 03:16 PM",
+  "generated_at": "2026-07-06T19:49:19",
+  "generated_display": "July 06, 2026 at 07:49 PM",
   "counts": {
-    "total": 509,
-    "rn": 405,
-    "aprn": 104
+    "total": 504,
+    "rn": 401,
+    "aprn": 103
   },
   "jobs": [
     {
@@ -13,6 +13,14 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/82090",
+      "posted": "2026-07-06"
+    },
+    {
+      "title": "Value Analysis Nurse, Supply Chain (OR)",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/88542",
       "posted": "2026-07-06"
     },
     {
@@ -1600,14 +1608,6 @@
       "posted": "2026-06-16"
     },
     {
-      "title": "Trauma Surgery - Physician Assistant or Nurse Practitioner",
-      "role": "APRN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159228/trauma-surgery-physician-assistant-or-nurse-practitioner",
-      "posted": "2026-06-15"
-    },
-    {
       "title": "Pre-Admission Testing - Per Diem - Nurse Practitioner (APRN) or Physician Assistant",
       "role": "APRN",
       "employer": "Hartford HealthCare",
@@ -1717,14 +1717,6 @@
       "employer": "Yale New Haven Health",
       "location": "Trumbull, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/85094",
-      "posted": "2026-06-12"
-    },
-    {
-      "title": "Care Manager",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/88869",
       "posted": "2026-06-12"
     },
     {
@@ -2024,27 +2016,11 @@
       "posted": "2026-06-09"
     },
     {
-      "title": "Registered Nurse Acute (RN) - Neonatal Intensive Care Unit",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "New Britain, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158951/registered-nurse-acute-rn-neonatal-intensive-care-unit",
-      "posted": "2026-06-09"
-    },
-    {
       "title": "Registered Nurse (RN) - Cardiac Telemetry",
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "New Britain, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158974/registered-nurse-rn-cardiac-telemetry",
-      "posted": "2026-06-09"
-    },
-    {
-      "title": "Registered Nurse (RN) - Telemetry",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "New Britain, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158969/registered-nurse-rn-telemetry",
       "posted": "2026-06-09"
     },
     {
@@ -2285,14 +2261,6 @@
       "employer": "Yale New Haven Health",
       "location": "North Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/85582",
-      "posted": "2026-06-05"
-    },
-    {
-      "title": "GI Clinic RN; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "North Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/86799",
       "posted": "2026-06-05"
     },
     {
@@ -2621,14 +2589,6 @@
       "employer": "Hartford HealthCare",
       "location": "Bridgeport, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158526/registered-nurse-rn-med-surg",
-      "posted": "2026-06-02"
-    },
-    {
-      "title": "Registered Nurse (RN) / Med Surg (Per Diem)",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158531/registered-nurse-rn-med-surg-per-diem",
       "posted": "2026-06-02"
     },
     {
