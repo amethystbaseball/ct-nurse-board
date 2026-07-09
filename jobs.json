@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-07-09T02:07:40",
-  "generated_display": "July 09, 2026 at 02:07 AM",
+  "generated_at": "2026-07-09T09:27:42",
+  "generated_display": "July 09, 2026 at 09:27 AM",
   "counts": {
     "total": 525,
-    "rn": 421,
-    "aprn": 104
+    "rn": 420,
+    "aprn": 105
   },
   "jobs": [
+    {
+      "title": "Oncology Hospitalist",
+      "role": "APRN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89384",
+      "posted": "2026-07-09"
+    },
     {
       "title": "RN, Pediatrics Outpatient - Temporary",
       "role": "RN",
@@ -341,14 +349,6 @@
       "employer": "Yale New Haven Health",
       "location": "Trumbull, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89149",
-      "posted": "2026-07-02"
-    },
-    {
-      "title": "RN Labor and Birth and Maternal Special Care; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/88746",
       "posted": "2026-07-02"
     },
     {
@@ -1448,14 +1448,6 @@
       "posted": "2026-06-21"
     },
     {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00668636-1",
-      "posted": "2026-06-20"
-    },
-    {
       "title": "Registered Nurse (RN) -OR General Surgery",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1557,6 +1549,14 @@
       "employer": "Yale New Haven Health",
       "location": "Greenwich, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/87775",
+      "posted": "2026-06-19"
+    },
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00668636-1",
       "posted": "2026-06-19"
     },
     {
