@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T02:06:08",
-  "generated_display": "July 10, 2026 at 02:06 AM",
+  "generated_at": "2026-07-10T09:23:37",
+  "generated_display": "July 10, 2026 at 09:23 AM",
   "counts": {
     "total": 537,
     "rn": 433,
@@ -845,6 +845,14 @@
       "employer": "Yale New Haven Health",
       "location": "Bridgeport, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89047",
+      "posted": "2026-06-29"
+    },
+    {
+      "title": "RN Emergency Department",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Meriden, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26159923/rn-emergency-department",
       "posted": "2026-06-29"
     },
     {
@@ -2541,14 +2549,6 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6143",
-      "posted": "2026-06-08"
-    },
-    {
-      "title": "RN Emergency Department",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Meriden, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158864/rn-emergency-department",
       "posted": "2026-06-08"
     },
     {
