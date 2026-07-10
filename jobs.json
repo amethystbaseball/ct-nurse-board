@@ -1,18 +1,50 @@
 {
-  "generated_at": "2026-07-10T09:23:37",
-  "generated_display": "July 10, 2026 at 09:23 AM",
+  "generated_at": "2026-07-10T14:05:43",
+  "generated_display": "July 10, 2026 at 02:05 PM",
   "counts": {
-    "total": 537,
-    "rn": 433,
+    "total": 542,
+    "rn": 438,
     "aprn": 104
   },
   "jobs": [
+    {
+      "title": "Evening HUC Registrar LDRP",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New London, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89594",
+      "posted": "2026-07-10"
+    },
+    {
+      "title": "Milieu Counselor - Transitional Youth Unit",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89477",
+      "posted": "2026-07-10"
+    },
+    {
+      "title": "Transition Coordinator",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89498",
+      "posted": "2026-07-10"
+    },
     {
       "title": "Registered Nurse-ICU SWAT Rapid Response",
       "role": "RN",
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/82460",
+      "posted": "2026-07-10"
+    },
+    {
+      "title": "Milieu Counselor",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89455",
       "posted": "2026-07-10"
     },
     {
@@ -133,6 +165,14 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89469",
+      "posted": "2026-07-09"
+    },
+    {
+      "title": "ST",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89409",
       "posted": "2026-07-09"
     },
     {
@@ -1688,14 +1728,6 @@
       "posted": "2026-06-19"
     },
     {
-      "title": "Registered Nurse (RN) - OR General Surgery",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159505/registered-nurse-rn-or-general-surgery",
-      "posted": "2026-06-19"
-    },
-    {
       "title": "Vascular Surgery - Physician Assistant or Nurse Practitioner",
       "role": "APRN",
       "employer": "Hartford HealthCare",
@@ -1812,7 +1844,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159415/registered-nurse-rn-cardiology-e4",
+      "url": "https://www.hhccareers.org/us/en/job/26159413/registered-nurse-rn-cardiology-e4",
       "posted": "2026-06-17"
     },
     {
@@ -2837,6 +2869,14 @@
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158734/registered-nurse-rn-adult-inpatient",
+      "posted": "2026-06-04"
+    },
+    {
+      "title": "Registered Nurse (RN) - Float Pool",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Norwich, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26158738/registered-nurse-rn-float-pool",
       "posted": "2026-06-04"
     },
     {
