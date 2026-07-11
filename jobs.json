@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-11T07:45:09",
-  "generated_display": "July 11, 2026 at 07:45 AM",
+  "generated_at": "2026-07-11T13:01:12",
+  "generated_display": "July 11, 2026 at 01:01 PM",
   "counts": {
-    "total": 545,
-    "rn": 445,
+    "total": 548,
+    "rn": 448,
     "aprn": 100
   },
   "jobs": [
@@ -4366,6 +4366,30 @@
       "location": "Windsor, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26157473/primary-care-nurse-practitioner-or-physician-assistant",
       "posted": "2026-05-12"
+    },
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Mary's Hospital Waterbury, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Marys-Hospital-Waterbury-CT/Operating-Room-RN_00660458",
+      "posted": "2026-06-02"
+    },
+    {
+      "title": "Registered Nurse Surgical Cardiology Full Time Days",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-Surgical-Cardiology-Full-Time-Days_00531700",
+      "posted": "2026-06-02"
+    },
+    {
+      "title": "Operating Room RN - Per Diem",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN---Per-Diem_00662353",
+      "posted": "2026-06-02"
     }
   ]
 }
