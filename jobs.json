@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-07-14T07:52:00",
-  "generated_display": "July 14, 2026 at 07:52 AM",
+  "generated_at": "2026-07-14T13:14:45",
+  "generated_display": "July 14, 2026 at 01:14 PM",
   "counts": {
-    "total": 516,
+    "total": 517,
     "rn": 424,
-    "aprn": 92
+    "aprn": 93
   },
   "jobs": [
+    {
+      "title": "Advanced Practice Nurse-Primary Care",
+      "role": "APRN",
+      "employer": "VA Connecticut (Federal)",
+      "location": "Willimantic, Connecticut",
+      "url": "https://www.usajobs.gov:443/job/876384700",
+      "posted": "2026-07-14"
+    },
     {
       "title": "Registered Nurse PDm - GI Endoscopy",
       "role": "RN",
@@ -1400,14 +1408,6 @@
       "posted": "2026-06-26"
     },
     {
-      "title": "Registered Nurse Neurosciences Unit 7.7",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73868",
-      "posted": "2026-06-26"
-    },
-    {
       "title": "Registered Nurse (RN)",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1893,6 +1893,14 @@
       "employer": "Yale New Haven Health",
       "location": "Shelton, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89013",
+      "posted": "2026-06-21"
+    },
+    {
+      "title": "Registered Nurse Neurosciences Unit 7.7",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/73868",
       "posted": "2026-06-21"
     },
     {
