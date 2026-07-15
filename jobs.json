@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-07-15T01:31:43",
-  "generated_display": "July 15, 2026 at 01:31 AM",
+  "generated_at": "2026-07-15T07:55:44",
+  "generated_display": "July 15, 2026 at 07:55 AM",
   "counts": {
-    "total": 515,
-    "rn": 427,
+    "total": 514,
+    "rn": 426,
     "aprn": 88
   },
   "jobs": [
+    {
+      "title": "Care Center/Call Center Advisor Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "North Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89063",
+      "posted": "2026-07-15"
+    },
     {
       "title": "Saff RN Non-Invasive Cardiology, Fulltime",
       "role": "RN",
@@ -568,14 +576,6 @@
       "posted": "2026-07-08"
     },
     {
-      "title": "Urology Technician",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Greenwich, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89378",
-      "posted": "2026-07-08"
-    },
-    {
       "title": "Orthopedic Tech",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -744,6 +744,14 @@
       "posted": "2026-07-07"
     },
     {
+      "title": "Registered Nurse (RN) / NICU",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26160272/registered-nurse-rn-nicu",
+      "posted": "2026-07-07"
+    },
+    {
       "title": "Per Diem Infusion Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -797,6 +805,14 @@
       "employer": "Connecticut Children's",
       "location": "Hartford, CT, United States",
       "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/4133",
+      "posted": "2026-07-07"
+    },
+    {
+      "title": "Registered Nurse (RN) - Medical Telemetry/Stroke",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Meriden, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26160295/registered-nurse-rn-medical-telemetry-stroke",
       "posted": "2026-07-07"
     },
     {
@@ -1376,6 +1392,14 @@
       "posted": "2026-06-29"
     },
     {
+      "title": "Registered Nurse (RN) - Oncology",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Meriden, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26159892/registered-nurse-rn-oncology",
+      "posted": "2026-06-29"
+    },
+    {
       "title": "Registered Nurse (RN) - Skilled Nursing",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1533,6 +1557,14 @@
       "employer": "Yale New Haven Health",
       "location": "New Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/73915",
+      "posted": "2026-06-26"
+    },
+    {
+      "title": "Registered Nurse Neurosciences Unit 7.7",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/73868",
       "posted": "2026-06-26"
     },
     {
@@ -1824,14 +1856,6 @@
       "posted": "2026-06-24"
     },
     {
-      "title": "Certified Lactation Consultant (RN, IBCLC) - Family Birthing Center (Per Diem)",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159669/certified-lactation-consultant-rn-ibclc-family-birthing-center-per-diem",
-      "posted": "2026-06-23"
-    },
-    {
       "title": "Medical Infusion RN (Bennett Cancer Center), Per Diem",
       "role": "RN",
       "employer": "Stamford Health",
@@ -2013,14 +2037,6 @@
       "employer": "Yale New Haven Health",
       "location": "Shelton, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89013",
-      "posted": "2026-06-21"
-    },
-    {
-      "title": "Registered Nurse Neurosciences Unit 7.7",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73868",
       "posted": "2026-06-21"
     },
     {
@@ -2236,7 +2252,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159413/registered-nurse-rn-cardiology-e4",
+      "url": "https://www.hhccareers.org/us/en/job/26159415/registered-nurse-rn-cardiology-e4",
       "posted": "2026-06-17"
     },
     {
@@ -2608,14 +2624,6 @@
       "posted": "2026-06-12"
     },
     {
-      "title": "Registered Nurse (RN) - Primary Care",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "South Windsor, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159144/registered-nurse-rn-primary-care",
-      "posted": "2026-06-12"
-    },
-    {
       "title": "Registered Nurse (RN)  - Primary Care",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2805,14 +2813,6 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6006",
-      "posted": "2026-06-10"
-    },
-    {
-      "title": "Registered Nurse (RN) - Inpatient Child/Adolescent Unit",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Mansfield Center, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159055/registered-nurse-rn-inpatient-child-adolescent-unit",
       "posted": "2026-06-10"
     },
     {
@@ -3141,14 +3141,6 @@
       "employer": "Hartford HealthCare",
       "location": "Watertown, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158674/ppv-primary-care-nurse-rn-registered-nurse-visiting-nurse-homecare",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Registered Nurse (RN) / NICU",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158660/registered-nurse-rn-nicu",
       "posted": "2026-06-03"
     },
     {
