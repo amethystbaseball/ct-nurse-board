@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-16T08:01:01",
-  "generated_display": "July 16, 2026 at 08:01 AM",
+  "generated_at": "2026-07-16T13:26:39",
+  "generated_display": "July 16, 2026 at 01:26 PM",
   "counts": {
     "total": 525,
     "rn": 433,
@@ -1728,14 +1728,6 @@
       "posted": "2026-06-26"
     },
     {
-      "title": "Registered Nurse Neurosciences Unit 7.7",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73868",
-      "posted": "2026-06-26"
-    },
-    {
       "title": "Registered Nurse (RN)",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2181,6 +2173,14 @@
       "employer": "Yale New Haven Health",
       "location": "Shelton, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89013",
+      "posted": "2026-06-21"
+    },
+    {
+      "title": "Registered Nurse Neurosciences Unit 7.7",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/73868",
       "posted": "2026-06-21"
     },
     {
