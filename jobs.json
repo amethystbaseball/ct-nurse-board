@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-20T02:10:39",
-  "generated_display": "July 20, 2026 at 02:10 AM",
+  "generated_at": "2026-07-20T08:46:03",
+  "generated_display": "July 20, 2026 at 08:46 AM",
   "counts": {
-    "total": 521,
-    "rn": 434,
+    "total": 522,
+    "rn": 435,
     "aprn": 87
   },
   "jobs": [
@@ -1328,6 +1328,14 @@
       "posted": "2026-07-03"
     },
     {
+      "title": "Registered Nurse - Rockville General Campus- Emergency Room",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Vernon, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26160141/registered-nurse-rockville-general-campus-emergency-room",
+      "posted": "2026-07-02"
+    },
+    {
       "title": "Registered Nurse Practice Supervisor (RN) - Cardiac Laboratory",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1936,6 +1944,14 @@
       "posted": "2026-06-26"
     },
     {
+      "title": "Registered Nurse Neurosciences Unit 7.7",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/73868",
+      "posted": "2026-06-26"
+    },
+    {
       "title": "Registered Nurse (RN)",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2176,14 +2192,6 @@
       "posted": "2026-06-24"
     },
     {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00676182",
-      "posted": "2026-06-24"
-    },
-    {
       "title": "Registered Nurse (RN) - Oncology",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2253,6 +2261,14 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6186",
+      "posted": "2026-06-23"
+    },
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00676182",
       "posted": "2026-06-23"
     },
     {
@@ -2381,14 +2397,6 @@
       "employer": "Yale New Haven Health",
       "location": "Shelton, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89013",
-      "posted": "2026-06-21"
-    },
-    {
-      "title": "Registered Nurse Neurosciences Unit 7.7",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73868",
       "posted": "2026-06-21"
     },
     {
