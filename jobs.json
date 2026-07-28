@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-07-28T08:20:30",
-  "generated_display": "July 28, 2026 at 08:20 AM",
+  "generated_at": "2026-07-28T13:45:15",
+  "generated_display": "July 28, 2026 at 01:45 PM",
   "counts": {
-    "total": 514,
-    "rn": 423,
+    "total": 512,
+    "rn": 421,
     "aprn": 91
   },
   "jobs": [
+    {
+      "title": "Nurse Practitioner or Physician Assistant - Diabetes & Endocrinology Practice - Full time",
+      "role": "APRN",
+      "employer": "Stamford Health",
+      "location": "Stamford, CT, United States",
+      "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6419",
+      "posted": "2026-07-28"
+    },
     {
       "title": "Registered Nurse-Quality Management Consultant",
       "role": "RN",
@@ -368,6 +376,14 @@
       "posted": "2026-07-23"
     },
     {
+      "title": "Registered Nurse (RN) - NICU",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Norwich, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26161213/registered-nurse-rn-nicu",
+      "posted": "2026-07-23"
+    },
+    {
       "title": "Primary Care Nurse (RN, Registered Nurse, Visiting Nurse) - HomeCare",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -653,14 +669,6 @@
       "employer": "Yale New Haven Health",
       "location": "Shelton, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89013",
-      "posted": "2026-07-20"
-    },
-    {
-      "title": "Inpatient Diabetes Nurse Practitioner / Physician Assistant (Monday–Friday)",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/86542",
       "posted": "2026-07-20"
     },
     {
@@ -2160,14 +2168,6 @@
       "posted": "2026-07-01"
     },
     {
-      "title": "Verdi 5 West Clinical Tech",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/88733",
-      "posted": "2026-07-01"
-    },
-    {
       "title": "Primary Care Nurse (RN, Registered Nurse, Visiting Nurse) - HomeCare",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2504,14 +2504,6 @@
       "posted": "2026-06-26"
     },
     {
-      "title": "Registered Nurse Neurosciences Unit 7.7",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73868",
-      "posted": "2026-06-26"
-    },
-    {
       "title": "Hospice RN (Registered Nurse, Visiting Nurse, Case Manager) – HomeCare",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2565,14 +2557,6 @@
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26159791/registered-nurse-rn-float-star-team",
-      "posted": "2026-06-25"
-    },
-    {
-      "title": "Staff RN HSS Main OR, Fulltime",
-      "role": "RN",
-      "employer": "Stamford Health",
-      "location": "Stamford, CT, United States",
-      "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6256",
       "posted": "2026-06-25"
     },
     {
@@ -2910,6 +2894,14 @@
       "location": "New Britain, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26159616/registered-nurse-rn",
       "posted": "2026-06-22"
+    },
+    {
+      "title": "Registered Nurse Neurosciences Unit 7.7",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/73868",
+      "posted": "2026-06-21"
     },
     {
       "title": "Registered Nurse (RN) -OR General Surgery",
@@ -3477,14 +3469,6 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/5216",
-      "posted": "2026-06-10"
-    },
-    {
-      "title": "RN Cardiac Cath Lab Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/86696",
       "posted": "2026-06-10"
     },
     {
