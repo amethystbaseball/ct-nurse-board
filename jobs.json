@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-07-30T08:12:31",
-  "generated_display": "July 30, 2026 at 08:12 AM",
+  "generated_at": "2026-07-30T13:32:43",
+  "generated_display": "July 30, 2026 at 01:32 PM",
   "counts": {
-    "total": 515,
-    "rn": 421,
+    "total": 517,
+    "rn": 423,
     "aprn": 94
   },
   "jobs": [
+    {
+      "title": "Registered Nurse-Emergency Department (Intermittent)",
+      "role": "RN",
+      "employer": "VA Connecticut (Federal)",
+      "location": "West Haven, Connecticut",
+      "url": "https://www.usajobs.gov:443/job/878591800",
+      "posted": "2026-07-30"
+    },
+    {
+      "title": "Ambulatory Surgery Center Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Greenwich, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90042",
+      "posted": "2026-07-29"
+    },
     {
       "title": "RN, Colorectal Surgery Outpatient Medical Group Full-time Stamford",
       "role": "RN",
@@ -44,7 +60,7 @@
       "role": "RN",
       "employer": "Yale New Haven Health",
       "location": "Greenwich, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90042",
+      "url": "https://jobs.ynhhs.org/jobs/90041",
       "posted": "2026-07-29"
     },
     {
