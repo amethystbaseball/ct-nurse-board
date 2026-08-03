@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-02T19:00:20",
-  "generated_display": "August 02, 2026 at 07:00 PM",
+  "generated_at": "2026-08-03T02:00:27",
+  "generated_display": "August 03, 2026 at 02:00 AM",
   "counts": {
-    "total": 526,
-    "rn": 436,
-    "aprn": 90
+    "total": 513,
+    "rn": 431,
+    "aprn": 82
   },
   "jobs": [
     {
@@ -944,6 +944,14 @@
       "posted": "2026-07-24"
     },
     {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00682843",
+      "posted": "2026-07-24"
+    },
+    {
       "title": "Registered Nurse (RN) - ICU",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1037,14 +1045,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/81721",
-      "posted": "2026-07-23"
-    },
-    {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00682843",
       "posted": "2026-07-23"
     },
     {
@@ -2960,6 +2960,14 @@
       "posted": "2026-06-26"
     },
     {
+      "title": "Registered Nurse Neurosciences Unit 7.7",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/73868",
+      "posted": "2026-06-26"
+    },
+    {
       "title": "Hospice RN (Registered Nurse, Visiting Nurse, Case Manager) – HomeCare",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -3294,14 +3302,6 @@
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88568",
       "posted": "2026-06-22"
-    },
-    {
-      "title": "Registered Nurse Neurosciences Unit 7.7",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73868",
-      "posted": "2026-06-21"
     },
     {
       "title": "Weekend Nurse Manager (Clinical Team) - HomeCare",
@@ -4102,110 +4102,6 @@
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26158734/registered-nurse-rn-adult-inpatient",
       "posted": "2026-06-04"
-    },
-    {
-      "title": "PPV Primary Care Nurse (RN, Registered Nurse, Visiting Nurse) - HomeCare",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Watertown, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158674/ppv-primary-care-nurse-rn-registered-nurse-visiting-nurse-homecare",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "General Surgery - Physician Assistant or Nurse Practitioner",
-      "role": "APRN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158626/general-surgery-physician-assistant-or-nurse-practitioner",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Registered Nurse (RN) -GI Endoscopy",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Meriden, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158623/registered-nurse-rn-gi-endoscopy",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Registered Nurse (RN) - PACU/Pre-op West Hartford Surgery Center (Per Diem)",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "West Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158658/registered-nurse-rn-pacu-pre-op-west-hartford-surgery-center-per-diem",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Walk in Clinic - Orthopedic Care APP - Per Diem",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Stamford, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/88582",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Primary Care - Nurse Practitioner or Physician Assistant",
-      "role": "APRN",
-      "employer": "Hartford HealthCare",
-      "location": "Bristol, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26158644/primary-care-nurse-practitioner-or-physician-assistant",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "RN-EMERGENCY DEPARTMENT NURSE RESIDENCY PROGRAM-Fall 2026",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/88619",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Periop 101 Registered Nurse Residency Program - Fall 2026",
-      "role": "RN",
-      "employer": "Stamford Health",
-      "location": "Stamford, CT, United States",
-      "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6079",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "CRNA - Certified Registered Nurse Anesthetist - New London, CT",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/86285",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Certified Registered Nurse Anesthetist-New London, CT",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/71974",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Graduate Registered Nurse Anesthetist- Bridgeport, CT",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/74004",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Registered Nurse Anesthetist Intern",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/83178",
-      "posted": "2026-06-03"
-    },
-    {
-      "title": "Certified Registered Nurse Anesthetist - New London, CT",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/86291",
-      "posted": "2026-06-03"
     },
     {
       "title": "Registered Nurse Surgical Cardiology Full Time Days",
