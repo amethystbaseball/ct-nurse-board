@@ -1,12 +1,44 @@
 {
-  "generated_at": "2026-08-05T08:23:21",
-  "generated_display": "August 05, 2026 at 08:23 AM",
+  "generated_at": "2026-08-05T13:48:57",
+  "generated_display": "August 05, 2026 at 01:48 PM",
   "counts": {
-    "total": 504,
-    "rn": 423,
+    "total": 509,
+    "rn": 428,
     "aprn": 81
   },
   "jobs": [
+    {
+      "title": "REGISTERED NURSE-Intraoperative-Same Day Surgery RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90120",
+      "posted": "2026-08-05"
+    },
+    {
+      "title": "Behavioral Health Per Diem RN; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Guilford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90139",
+      "posted": "2026-08-05"
+    },
+    {
+      "title": "REGISTERED NURSE-Milford Campus ICU RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Milford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90124",
+      "posted": "2026-08-05"
+    },
+    {
+      "title": "REGISTERED NURSE-Endoscopy RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90119",
+      "posted": "2026-08-05"
+    },
     {
       "title": "Registered Nurse - Interventional Psychiatry; Registered Nurse",
       "role": "RN",
@@ -532,7 +564,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161628/registered-nurse-rn-adolescent-inpatient",
+      "url": "https://www.hhccareers.org/us/en/job/26161645/registered-nurse-rn-adolescent-inpatient",
       "posted": "2026-07-30"
     },
     {
@@ -776,14 +808,6 @@
       "posted": "2026-07-28"
     },
     {
-      "title": "24H Night Shift NICU RN",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90012",
-      "posted": "2026-07-28"
-    },
-    {
       "title": "36H Day Shift NICU RN",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -860,7 +884,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Mansfield Center, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161350/registered-nurse-rn-supervisor-inpatient-per-diem",
+      "url": "https://www.hhccareers.org/us/en/job/26161351/registered-nurse-rn-supervisor-inpatient-per-diem",
       "posted": "2026-07-27"
     },
     {
@@ -1172,7 +1196,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161327/registered-nurse-rn-gn-neuro-surgical",
+      "url": "https://www.hhccareers.org/us/en/job/26161328/registered-nurse-rn-gn-neuro-surgical",
       "posted": "2026-07-24"
     },
     {
@@ -1596,8 +1620,8 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Meriden, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26160985/registered-nurse-rn-wound-care",
-      "posted": "2026-07-20"
+      "url": "https://www.hhccareers.org/us/en/job/26160963/registered-nurse-rn-wound-care",
+      "posted": "2026-07-19"
     },
     {
       "title": "Registered Nurse (RN) - Oncology",
@@ -1832,14 +1856,6 @@
       "posted": "2026-07-16"
     },
     {
-      "title": "Registered Nurse (RN) - Emergency Room General",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Manchester, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26160870/registered-nurse-rn-emergency-room-general",
-      "posted": "2026-07-16"
-    },
-    {
       "title": "Registered Nurse (RN)- OR General Surgery",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1952,11 +1968,27 @@
       "posted": "2026-07-15"
     },
     {
+      "title": "Registered Nurse (RN) - Emergency Room General",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Manchester, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26160802/registered-nurse-rn-emergency-room-general",
+      "posted": "2026-07-15"
+    },
+    {
       "title": "RN Emergency Department",
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "New Britain, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26160764/rn-emergency-department",
+      "posted": "2026-07-15"
+    },
+    {
+      "title": "Patient Care Administrative Nurse Supervisor (RN) - Nurse Coordinators",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26160732/patient-care-administrative-nurse-supervisor-rn-nurse-coordinators",
       "posted": "2026-07-15"
     },
     {
@@ -2085,14 +2117,6 @@
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26160638/registered-nurse-rn-gn-medicine-units",
-      "posted": "2026-07-13"
-    },
-    {
-      "title": "Patient Care Administrative Nurse Supervisor (RN) - Nurse Coordinators",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26160595/patient-care-administrative-nurse-supervisor-rn-nurse-coordinators",
       "posted": "2026-07-13"
     },
     {
@@ -2325,6 +2349,14 @@
       "employer": "Yale New Haven Health",
       "location": "New Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89384",
+      "posted": "2026-07-09"
+    },
+    {
+      "title": "Registered Nurse (RN) - OR Ambulatory PACU",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26160454/registered-nurse-rn-or-ambulatory-pacu",
       "posted": "2026-07-09"
     },
     {
@@ -3608,6 +3640,14 @@
       "posted": "2026-06-17"
     },
     {
+      "title": "Registered Nurse (RN) - Neonatal Intensive Care Unit",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Manchester, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26159381/registered-nurse-rn-neonatal-intensive-care-unit",
+      "posted": "2026-06-17"
+    },
+    {
       "title": "Nursing Professional Development Practitioner (RN) - Inpatient Surgical",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -4036,7 +4076,7 @@
       "role": "RN",
       "employer": "Trinity Health Of New England",
       "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00668636-1",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00676182",
       "posted": "2026-06-02"
     }
   ]
