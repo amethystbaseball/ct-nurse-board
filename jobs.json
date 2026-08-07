@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-06T23:54:35",
-  "generated_display": "August 06, 2026 at 11:54 PM",
+  "generated_at": "2026-08-07T02:13:46",
+  "generated_display": "August 07, 2026 at 02:13 AM",
   "counts": {
-    "total": 535,
-    "rn": 448,
+    "total": 534,
+    "rn": 447,
     "aprn": 87
   },
   "jobs": [
@@ -416,19 +416,19 @@
       "posted": "2026-08-03"
     },
     {
-      "title": "Medical Oncology & Hematology - Nurse Practitioner (APRN) or Physician Assistant",
-      "role": "APRN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161768/medical-oncology-hematology-nurse-practitioner-aprn-or-physician-assistant",
-      "posted": "2026-07-31"
-    },
-    {
       "title": "PACU Registered Nurse",
       "role": "RN",
       "employer": "Trinity Health Of New England",
       "location": "Saint Francis Hospital - Hartford, CT",
       "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/PACU-Registered-Nurse_00671081",
+      "posted": "2026-08-01"
+    },
+    {
+      "title": "Medical Oncology & Hematology - Nurse Practitioner (APRN) or Physician Assistant",
+      "role": "APRN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26161768/medical-oncology-hematology-nurse-practitioner-aprn-or-physician-assistant",
       "posted": "2026-07-31"
     },
     {
@@ -2869,14 +2869,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89097",
-      "posted": "2026-07-07"
-    },
-    {
-      "title": "Staff Nurse-Float Pool-36hr",
-      "role": "RN",
-      "employer": "Connecticut Children's",
-      "location": "Hartford, CT, United States",
-      "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/4644",
       "posted": "2026-07-07"
     },
     {
