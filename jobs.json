@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T07:04:45",
-  "generated_display": "August 07, 2026 at 07:04 AM",
+  "generated_at": "2026-08-07T12:45:14",
+  "generated_display": "August 07, 2026 at 12:45 PM",
   "counts": {
-    "total": 533,
-    "rn": 446,
+    "total": 532,
+    "rn": 445,
     "aprn": 87
   },
   "jobs": [
@@ -2872,14 +2872,6 @@
       "posted": "2026-07-07"
     },
     {
-      "title": "RN; Registered Nurse-Endoscopy",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89097",
-      "posted": "2026-07-07"
-    },
-    {
       "title": "Staff Nurse - Sedation - 36hr",
       "role": "RN",
       "employer": "Connecticut Children's",
@@ -3336,14 +3328,6 @@
       "posted": "2026-06-26"
     },
     {
-      "title": "Registered Nurse Neurosciences Unit 7.7",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73868",
-      "posted": "2026-06-26"
-    },
-    {
       "title": "Hospice RN (Registered Nurse, Visiting Nurse, Case Manager) – HomeCare",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -3662,6 +3646,14 @@
       "location": "New Britain, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26159616/registered-nurse-rn",
       "posted": "2026-06-22"
+    },
+    {
+      "title": "Registered Nurse Neurosciences Unit 7.7",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/73868",
+      "posted": "2026-06-21"
     },
     {
       "title": "Weekend Nurse Manager (Clinical Team) - HomeCare",
