@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T01:07:10",
-  "generated_display": "August 11, 2026 at 01:07 AM",
+  "generated_at": "2026-08-11T06:54:31",
+  "generated_display": "August 11, 2026 at 06:54 AM",
   "counts": {
     "total": 532,
     "rn": 443,
@@ -293,6 +293,14 @@
       "employer": "Hartford HealthCare",
       "location": "Norwich, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26162157/registered-nurse-rn-cardiology-e4",
+      "posted": "2026-08-07"
+    },
+    {
+      "title": "Registered Nurse - Graduate Nurse (RN, GN) - PCU E3",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Norwich, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26162133/registered-nurse-graduate-nurse-rn-gn-pcu-e3",
       "posted": "2026-08-07"
     },
     {
@@ -784,11 +792,11 @@
       "posted": "2026-08-03"
     },
     {
-      "title": "Registered Nurse - Graduate Nurse (RN, GN) - PCU E3",
+      "title": "Registered Nurse (RN) - Medical Telemetry/Stroke",
       "role": "RN",
       "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161833/registered-nurse-graduate-nurse-rn-gn-pcu-e3",
+      "location": "Meriden, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26161836/registered-nurse-rn-medical-telemetry-stroke",
       "posted": "2026-08-03"
     },
     {
@@ -2032,14 +2040,6 @@
       "posted": "2026-07-22"
     },
     {
-      "title": "Registered Nurse Acute (RN) - Post Partum",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161168/registered-nurse-acute-rn-post-partum",
-      "posted": "2026-07-22"
-    },
-    {
       "title": "RN Emergency Department",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2117,6 +2117,14 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88899",
+      "posted": "2026-07-21"
+    },
+    {
+      "title": "Registered Nurse Acute (RN) - Post Partum",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26161101/registered-nurse-acute-rn-post-partum",
       "posted": "2026-07-21"
     },
     {
@@ -3600,6 +3608,14 @@
       "posted": "2026-06-26"
     },
     {
+      "title": "Registered Nurse Neurosciences Unit 7.7",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/73868",
+      "posted": "2026-06-26"
+    },
+    {
       "title": "Hospice RN (Registered Nurse, Visiting Nurse, Case Manager) – HomeCare",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -3792,14 +3808,6 @@
       "posted": "2026-06-24"
     },
     {
-      "title": "Wound, Ostomy and Continence RN Acute (WOC) - IP Nursing Wound Care",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "New Britain, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26159672/wound-ostomy-and-continence-rn-acute-woc-ip-nursing-wound-care",
-      "posted": "2026-06-23"
-    },
-    {
       "title": "Gynecologic Oncology Practice Nurse; Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -3910,14 +3918,6 @@
       "location": "New Britain, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26159616/registered-nurse-rn",
       "posted": "2026-06-22"
-    },
-    {
-      "title": "Registered Nurse Neurosciences Unit 7.7",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73868",
-      "posted": "2026-06-21"
     },
     {
       "title": "Weekend Nurse Manager (Clinical Team) - HomeCare",
