@@ -1,20 +1,12 @@
 {
-  "generated_at": "2026-08-14T01:13:06",
-  "generated_display": "August 14, 2026 at 01:13 AM",
+  "generated_at": "2026-08-14T07:14:01",
+  "generated_display": "August 14, 2026 at 07:14 AM",
   "counts": {
-    "total": 528,
-    "rn": 428,
+    "total": 527,
+    "rn": 427,
     "aprn": 100
   },
   "jobs": [
-    {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00687467",
-      "posted": "2026-08-14"
-    },
     {
       "title": "New Graduate Nurse NNICU with Residency",
       "role": "RN",
@@ -125,6 +117,14 @@
       "employer": "Yale New Haven Health",
       "location": "New Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/81511",
+      "posted": "2026-08-13"
+    },
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00687467",
       "posted": "2026-08-13"
     },
     {
@@ -720,6 +720,14 @@
       "posted": "2026-08-07"
     },
     {
+      "title": "Registered Nurse (RN) - Med Surg",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Meriden, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26162159/registered-nurse-rn-med-surg",
+      "posted": "2026-08-07"
+    },
+    {
       "title": "Registered Nurse (RN, GN)  - Medicine Units",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -976,14 +984,6 @@
       "posted": "2026-08-05"
     },
     {
-      "title": "RN Oncology Practice",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161896/rn-oncology-practice",
-      "posted": "2026-08-04"
-    },
-    {
       "title": "Assistant Nurse Manager (RN) -  Medicine",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1152,14 +1152,6 @@
       "posted": "2026-08-03"
     },
     {
-      "title": "PACU Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/PACU-Registered-Nurse_00671081",
-      "posted": "2026-08-01"
-    },
-    {
       "title": "Registered Nurse (RN) / L&D",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1181,6 +1173,14 @@
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26161763/hospitalist-nurse-practitioner-or-physician-assistant",
+      "posted": "2026-07-31"
+    },
+    {
+      "title": "PACU Registered Nurse",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/PACU-Registered-Nurse_00671081",
       "posted": "2026-07-31"
     },
     {
@@ -2477,14 +2477,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/85421",
-      "posted": "2026-07-20"
-    },
-    {
-      "title": "Registered Nurse (RN) - Med Surg",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Meriden, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161061/registered-nurse-rn-med-surg",
       "posted": "2026-07-20"
     },
     {
