@@ -1,12 +1,28 @@
 {
-  "generated_at": "2026-08-14T07:14:01",
-  "generated_display": "August 14, 2026 at 07:14 AM",
+  "generated_at": "2026-08-14T12:46:47",
+  "generated_display": "August 14, 2026 at 12:46 PM",
   "counts": {
-    "total": 527,
-    "rn": 427,
+    "total": 529,
+    "rn": 429,
     "aprn": 100
   },
   "jobs": [
+    {
+      "title": "4.1 NEURO HUC",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New London, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90433",
+      "posted": "2026-08-14"
+    },
+    {
+      "title": "Psychiatric Emergency Services RN; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New London, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90420",
+      "posted": "2026-08-14"
+    },
     {
       "title": "New Graduate Nurse NNICU with Residency",
       "role": "RN",
