@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15T00:45:54",
-  "generated_display": "August 15, 2026 at 12:45 AM",
+  "generated_at": "2026-08-15T06:24:57",
+  "generated_display": "August 15, 2026 at 06:24 AM",
   "counts": {
-    "total": 527,
-    "rn": 429,
+    "total": 524,
+    "rn": 426,
     "aprn": 98
   },
   "jobs": [
@@ -61,14 +61,6 @@
       "employer": "Yale New Haven Health",
       "location": "New Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/81511",
-      "posted": "2026-08-14"
-    },
-    {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00687467",
       "posted": "2026-08-14"
     },
     {
@@ -1198,14 +1190,6 @@
       "location": "Torrington, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26161824/registered-nurse-rn-inpatient-psych-per-diem",
       "posted": "2026-08-03"
-    },
-    {
-      "title": "PACU Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/PACU-Registered-Nurse_00671081",
-      "posted": "2026-08-01"
     },
     {
       "title": "Registered Nurse (RN) / L&D",
@@ -4214,14 +4198,6 @@
       "location": "Bridgeport, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26159325/registered-nurse-rn-cardiac-procedural-holding-per-diem",
       "posted": "2026-06-16"
-    },
-    {
-      "title": "Registered Nurse Surgical Cardiology Full Time Days",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-Surgical-Cardiology-Full-Time-Days_00531700",
-      "posted": "2026-06-02"
     }
   ]
 }
