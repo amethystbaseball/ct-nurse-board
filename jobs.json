@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-22T00:45:52",
-  "generated_display": "August 22, 2026 at 12:45 AM",
+  "generated_at": "2026-08-22T06:26:54",
+  "generated_display": "August 22, 2026 at 06:26 AM",
   "counts": {
-    "total": 557,
-    "rn": 448,
+    "total": 553,
+    "rn": 444,
     "aprn": 109
   },
   "jobs": [
@@ -405,14 +405,6 @@
       "employer": "Yale New Haven Health",
       "location": "New London, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90497",
-      "posted": "2026-08-20"
-    },
-    {
-      "title": "Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Trinity Health Of New England At Home - CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Trinity-Health-Of-New-England-At-Home---CT/Registered-Nurse_00688406",
       "posted": "2026-08-20"
     },
     {
@@ -1984,14 +1976,6 @@
       "posted": "2026-08-03"
     },
     {
-      "title": "PACU Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/PACU-Registered-Nurse_00671081",
-      "posted": "2026-08-01"
-    },
-    {
       "title": "Registered Nurse (RN) / L&D",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2787,7 +2771,7 @@
       "title": "Practice RN-Melanoma Surgery Oncology",
       "role": "RN",
       "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
+      "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89466",
       "posted": "2026-07-24"
     },
@@ -2795,7 +2779,7 @@
       "title": "GI Surgical Oncology; Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
+      "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89152",
       "posted": "2026-07-24"
     },
@@ -2869,14 +2853,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89424",
-      "posted": "2026-07-24"
-    },
-    {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00682843",
       "posted": "2026-07-24"
     },
     {
@@ -4454,14 +4430,6 @@
       "location": "Bridgeport, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26159630/registered-nurse-rn-ortho-neuro-per-diem",
       "posted": "2026-06-23"
-    },
-    {
-      "title": "Registered Nurse Surgical Cardiology Full Time Days",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-Surgical-Cardiology-Full-Time-Days_00531700",
-      "posted": "2026-06-02"
     }
   ]
 }
