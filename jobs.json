@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-24T00:47:28",
-  "generated_display": "August 24, 2026 at 12:47 AM",
+  "generated_at": "2026-08-24T06:41:41",
+  "generated_display": "August 24, 2026 at 06:41 AM",
   "counts": {
-    "total": 543,
-    "rn": 435,
+    "total": 544,
+    "rn": 436,
     "aprn": 108
   },
   "jobs": [
@@ -1358,6 +1358,14 @@
       "location": "Hartford, CT, United States",
       "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/5528",
       "posted": "2026-08-08"
+    },
+    {
+      "title": "Registered Nurse- Emergency Room General",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Vernon, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26162078/registered-nurse-emergency-room-general",
+      "posted": "2026-08-07"
     },
     {
       "title": "OB/GYN Nurse Practitioner or Physician Assistant",
