@@ -1,12 +1,124 @@
 {
-  "generated_at": "2026-09-01T10:52:34",
-  "generated_display": "September 01, 2026 at 10:52 AM",
+  "generated_at": "2026-09-01T15:51:22",
+  "generated_display": "September 01, 2026 at 03:51 PM",
   "counts": {
-    "total": 519,
-    "rn": 416,
+    "total": 530,
+    "rn": 427,
     "aprn": 103
   },
   "jobs": [
+    {
+      "title": "RN Deputy Associate Director for Patient Care Service",
+      "role": "RN",
+      "employer": "VA Connecticut (Federal)",
+      "location": "West Haven, Connecticut",
+      "url": "https://www.usajobs.gov:443/job/882974600",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "Home Care Physical Therapist Per Diem",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Guilford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90824",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "Family Bridge Program Coordinator",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Stratford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90814",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "Registered Nurse-Angio Suite (Tele/Recovery) RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90825",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "REGISTERED NURSE-Critical Care/ICU-Milford Campus",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Milford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90807",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "RN-Team Coordinator-Cystoscopy/PACU",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90801",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "REGISTERED NURSE-Main Operating Room-Sign on Bonus Eligible",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90818",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "Behavioral Health Per Diem RN; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Guilford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90812",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "Staff RN HSS Main OR, Fulltime",
+      "role": "RN",
+      "employer": "Stamford Health",
+      "location": "Stamford, CT, United States",
+      "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6590",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "REGISTERED NURSE-Emergency Department-Milford Campus",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Milford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90794",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "REGISTERED NURSE-PACU RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90815",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "REGISTERED NURSE-Cystoscopy RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90800",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "REGISTERED NURSE-Emergency Department RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90809",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "REGISTERED NURSE-HVC Stroke RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90813",
+      "posted": "2026-09-01"
+    },
     {
       "title": "Registered Nurse - (RN) Radiology - Interventional",
       "role": "RN",
@@ -29,14 +141,6 @@
       "employer": "Connecticut Children's",
       "location": "Hartford, CT, United States",
       "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/5631",
-      "posted": "2026-08-31"
-    },
-    {
-      "title": "Pre-op/PACU RN; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89484",
       "posted": "2026-08-31"
     },
     {
@@ -912,14 +1016,6 @@
       "posted": "2026-08-20"
     },
     {
-      "title": "ACA",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "North Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90469",
-      "posted": "2026-08-20"
-    },
-    {
       "title": "UroGyn Ambulatory RN; Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -933,14 +1029,6 @@
       "employer": "Yale New Haven Health",
       "location": "Old Saybrook, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90511",
-      "posted": "2026-08-20"
-    },
-    {
-      "title": "RN in Women's Health Specialty; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90507",
       "posted": "2026-08-20"
     },
     {
@@ -1013,6 +1101,14 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90508",
+      "posted": "2026-08-20"
+    },
+    {
+      "title": "Home Health -Physical Therapist",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Guilford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/87713",
       "posted": "2026-08-20"
     },
     {
@@ -2072,22 +2168,6 @@
       "posted": "2026-08-07"
     },
     {
-      "title": "REGISTERED NURSE-PACU RN",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90309",
-      "posted": "2026-08-07"
-    },
-    {
-      "title": "Infection Prevention",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Greenwich, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87068",
-      "posted": "2026-08-07"
-    },
-    {
       "title": "MICU APP",
       "role": "APRN",
       "employer": "Yale New Haven Health",
@@ -2133,6 +2213,14 @@
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26162022/registered-nurse-rn-float-star-team",
+      "posted": "2026-08-06"
+    },
+    {
+      "title": "GI Endoscopy Technician 1 (Per Diem)",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "New Britain, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26162042/gi-endoscopy-technician-1-per-diem",
       "posted": "2026-08-06"
     },
     {
@@ -2221,6 +2309,14 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88476",
+      "posted": "2026-08-06"
+    },
+    {
+      "title": "Surgical Tech",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90152",
       "posted": "2026-08-06"
     },
     {
@@ -3344,14 +3440,6 @@
       "posted": "2026-07-22"
     },
     {
-      "title": "Registered Nurse Orthopedics/Neurosciences",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/73865",
-      "posted": "2026-07-21"
-    },
-    {
       "title": "Patient Care Administrative Nurse Supervisor - Nursing Service Office",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -3696,14 +3784,6 @@
       "posted": "2026-07-15"
     },
     {
-      "title": "REGISTERED NURSE-Adult Psychiatry RN",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89344",
-      "posted": "2026-07-15"
-    },
-    {
       "title": "REGISTERED NURSE-Medicine RN",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -3861,14 +3941,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/82460",
-      "posted": "2026-07-10"
-    },
-    {
-      "title": "RN Coordinator - Telemetry Center",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26160545/rn-coordinator-telemetry-center",
       "posted": "2026-07-10"
     },
     {
@@ -4032,6 +4104,14 @@
       "posted": "2026-07-08"
     },
     {
+      "title": "RN Geri Psych; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89158",
+      "posted": "2026-07-08"
+    },
+    {
       "title": "RN for Psychiatry Mood Disorders Unit; Registered Nurse; Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -4109,6 +4189,14 @@
       "employer": "Yale New Haven Health",
       "location": "Bridgeport, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89336",
+      "posted": "2026-07-07"
+    },
+    {
+      "title": "REGISTERED NURSE-Adult Psychiatry RN",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89357",
       "posted": "2026-07-07"
     },
     {
