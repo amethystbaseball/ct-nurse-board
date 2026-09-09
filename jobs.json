@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-08T20:35:07",
-  "generated_display": "September 08, 2026 at 08:35 PM",
+  "generated_at": "2026-09-09T02:19:20",
+  "generated_display": "September 09, 2026 at 02:19 AM",
   "counts": {
-    "total": 576,
-    "rn": 458,
-    "aprn": 118
+    "total": 568,
+    "rn": 452,
+    "aprn": 116
   },
   "jobs": [
     {
@@ -1093,7 +1093,7 @@
       "employer": "Trinity Health Of New England",
       "location": "Saint Francis Hospital - Hartford, CT",
       "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN_00688766-1",
-      "posted": "2026-08-29"
+      "posted": "2026-08-30"
     },
     {
       "title": "Registered Nurse (RN) - Cardiology",
@@ -2096,6 +2096,14 @@
       "posted": "2026-08-20"
     },
     {
+      "title": "Registered Nurse",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Trinity Health Of New England At Home - CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Trinity-Health-Of-New-England-At-Home---CT/Registered-Nurse_00688406",
+      "posted": "2026-08-20"
+    },
+    {
       "title": "Advance Practice Nurse / Head and Neck Medical Oncology",
       "role": "APRN",
       "employer": "Yale New Haven Health",
@@ -2213,14 +2221,6 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6550",
-      "posted": "2026-08-19"
-    },
-    {
-      "title": "Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Trinity Health Of New England At Home - CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Trinity-Health-Of-New-England-At-Home---CT/Registered-Nurse_00688406",
       "posted": "2026-08-19"
     },
     {
@@ -3872,14 +3872,6 @@
       "posted": "2026-07-27"
     },
     {
-      "title": "Observation Associate - ED Video Monitoring",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89927",
-      "posted": "2026-07-27"
-    },
-    {
       "title": "HCC Clinical Documentation Lead (RN)",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -4040,14 +4032,6 @@
       "posted": "2026-07-23"
     },
     {
-      "title": "Milieu Counselor in a mental health setting",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89933",
-      "posted": "2026-07-23"
-    },
-    {
       "title": "SNCA",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -4060,7 +4044,7 @@
       "role": "RN",
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89926",
+      "url": "https://jobs.ynhhs.org/jobs/89933",
       "posted": "2026-07-23"
     },
     {
@@ -4550,54 +4534,6 @@
       "location": "Manchester, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26160590/assistant-nurse-manager-gi-amu",
       "posted": "2026-07-11"
-    },
-    {
-      "title": "Psychiatric Mental Health Nurse Practitioner (Per Diem)",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89602",
-      "posted": "2026-07-10"
-    },
-    {
-      "title": "Registered Nurse (RN) - Neurosurgery  (Hybrid)",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26160549/registered-nurse-rn-neurosurgery-hybrid",
-      "posted": "2026-07-10"
-    },
-    {
-      "title": "Hospitalist Physician Assistant or Nurse Practitioner",
-      "role": "APRN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26160558/hospitalist-physician-assistant-or-nurse-practitioner",
-      "posted": "2026-07-10"
-    },
-    {
-      "title": "Per Diem RN 4.1 Neuro - Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89565",
-      "posted": "2026-07-10"
-    },
-    {
-      "title": "RN 4.1 Neuro Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89564",
-      "posted": "2026-07-10"
-    },
-    {
-      "title": "REGISTERED NURSE-Neuro Uro Ortho RN",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/84560",
-      "posted": "2026-07-10"
     },
     {
       "title": "PACU Registered Nurse",
