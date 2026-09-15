@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T02:38:19",
-  "generated_display": "September 15, 2026 at 02:38 AM",
+  "generated_at": "2026-09-15T10:48:19",
+  "generated_display": "September 15, 2026 at 10:48 AM",
   "counts": {
-    "total": 570,
-    "rn": 452,
+    "total": 568,
+    "rn": 450,
     "aprn": 118
   },
   "jobs": [
@@ -245,14 +245,6 @@
       "employer": "Yale New Haven Health",
       "location": "New London, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91092",
-      "posted": "2026-09-11"
-    },
-    {
-      "title": "Registered Nurse (RN) - Urogynecology",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164012/registered-nurse-rn-urogynecology",
       "posted": "2026-09-11"
     },
     {
@@ -512,14 +504,6 @@
       "posted": "2026-09-09"
     },
     {
-      "title": "PACU Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/PACU-Registered-Nurse_00692944",
-      "posted": "2026-09-09"
-    },
-    {
       "title": "Registered Nurse (RN) - Oncology ( Per Diem)",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -680,6 +664,14 @@
       "posted": "2026-09-08"
     },
     {
+      "title": "PACU Registered Nurse",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/PACU-Registered-Nurse_00692944",
+      "posted": "2026-09-08"
+    },
+    {
       "title": "Intermediate Care Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -701,6 +693,14 @@
       "employer": "Yale New Haven Health",
       "location": "Greenwich, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91028",
+      "posted": "2026-09-08"
+    },
+    {
+      "title": "Registered Nurse (RN) - Cardiology E4",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Norwich, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163806/registered-nurse-rn-cardiology-e4",
       "posted": "2026-09-08"
     },
     {
@@ -1064,14 +1064,6 @@
       "posted": "2026-09-03"
     },
     {
-      "title": "Registered Nurse-Case Management",
-      "role": "RN",
-      "employer": "VA Connecticut (Federal)",
-      "location": "Newington, Connecticut",
-      "url": "https://www.usajobs.gov:443/job/883331300",
-      "posted": "2026-09-03"
-    },
-    {
       "title": "Home Care Physical Therapist Per Diem",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -1405,6 +1397,14 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6590",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "Registered Nurse (RN) ICU",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Manchester, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163469/registered-nurse-rn-icu",
       "posted": "2026-09-01"
     },
     {
@@ -1864,14 +1864,6 @@
       "posted": "2026-08-26"
     },
     {
-      "title": "RN Emergency (per diem) (Bradley)",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Southington, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26163105/rn-emergency-per-diem-bradley",
-      "posted": "2026-08-26"
-    },
-    {
       "title": "Registered Nurse (RN) - Cardiac Lab",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2120,14 +2112,6 @@
       "posted": "2026-08-25"
     },
     {
-      "title": "Registered Nurse (RN)- OR General Surgery",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26163084/registered-nurse-rn-or-general-surgery",
-      "posted": "2026-08-25"
-    },
-    {
       "title": "Registered Nurse (RN) -  Maternal Fetal Medicine",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2190,14 +2174,6 @@
       "location": "Meriden, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26163003/registered-nurse-rn-med-surg",
       "posted": "2026-08-24"
-    },
-    {
-      "title": "Registered Nurse Orthopedic",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-Orthopedic_00688999",
-      "posted": "2026-08-21"
     },
     {
       "title": "Staff RN - Gen Surg FT Days (SHMG)",
@@ -2384,6 +2360,14 @@
       "posted": "2026-08-21"
     },
     {
+      "title": "Registered Nurse Orthopedic",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-Orthopedic_00688999",
+      "posted": "2026-08-20"
+    },
+    {
       "title": "APRN- inpatient Psychiatry",
       "role": "APRN",
       "employer": "Yale New Haven Health",
@@ -2536,14 +2520,6 @@
       "posted": "2026-08-20"
     },
     {
-      "title": "Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Trinity Health Of New England At Home - CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Trinity-Health-Of-New-England-At-Home---CT/Registered-Nurse_00688406",
-      "posted": "2026-08-20"
-    },
-    {
       "title": "Cardiovascular APP for Angio Unit",
       "role": "APRN",
       "employer": "Yale New Haven Health",
@@ -2661,6 +2637,14 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6550",
+      "posted": "2026-08-19"
+    },
+    {
+      "title": "Registered Nurse",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Trinity Health Of New England At Home - CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Trinity-Health-Of-New-England-At-Home---CT/Registered-Nurse_00688406",
       "posted": "2026-08-19"
     },
     {
