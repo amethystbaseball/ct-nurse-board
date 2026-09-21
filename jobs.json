@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-20T20:04:36",
-  "generated_display": "September 20, 2026 at 08:04 PM",
+  "generated_at": "2026-09-21T02:31:59",
+  "generated_display": "September 21, 2026 at 02:31 AM",
   "counts": {
-    "total": 565,
-    "rn": 448,
-    "aprn": 117
+    "total": 566,
+    "rn": 450,
+    "aprn": 116
   },
   "jobs": [
     {
@@ -29,6 +29,14 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91257",
+      "posted": "2026-09-18"
+    },
+    {
+      "title": "Endo RN; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/91249",
       "posted": "2026-09-18"
     },
     {
@@ -117,6 +125,14 @@
       "employer": "Yale New Haven Health",
       "location": "Waterford, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90879",
+      "posted": "2026-09-18"
+    },
+    {
+      "title": "RN; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "STAMFORD, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/91156",
       "posted": "2026-09-18"
     },
     {
@@ -309,14 +325,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/83716",
-      "posted": "2026-09-17"
-    },
-    {
-      "title": "1110",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/91163",
       "posted": "2026-09-17"
     },
     {
@@ -1192,6 +1200,14 @@
       "posted": "2026-09-08"
     },
     {
+      "title": "Surg Tech",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Greenwich, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/91044",
+      "posted": "2026-09-08"
+    },
+    {
       "title": "Intake Specialist",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -1541,6 +1557,14 @@
       "employer": "Yale New Haven Health",
       "location": "New London, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90910",
+      "posted": "2026-09-03"
+    },
+    {
+      "title": "1110",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90863",
       "posted": "2026-09-03"
     },
     {
@@ -2824,6 +2848,14 @@
       "posted": "2026-08-20"
     },
     {
+      "title": "ACA",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "North Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90469",
+      "posted": "2026-08-20"
+    },
+    {
       "title": "UroGyn Ambulatory RN; Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -3504,6 +3536,14 @@
       "posted": "2026-08-10"
     },
     {
+      "title": "Emergency Department Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Greenwich, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/90297",
+      "posted": "2026-08-10"
+    },
+    {
       "title": "Registered Nurse (RN) - Medical ICU",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -4000,6 +4040,14 @@
       "posted": "2026-07-31"
     },
     {
+      "title": "ED Tech I - Pequot ED",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Groton, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/88506",
+      "posted": "2026-07-31"
+    },
+    {
       "title": "RN - Transplant Unit",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -4392,6 +4440,14 @@
       "posted": "2026-07-24"
     },
     {
+      "title": "Practice Nurse- GYN Oncology; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/87738",
+      "posted": "2026-07-24"
+    },
+    {
       "title": "Registered Nurse (RN) - Preventive Cardiology",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -4446,54 +4502,6 @@
       "location": "East Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26161223/primary-care-nurse-rn-registered-nurse-visiting-nurse-homecare",
       "posted": "2026-07-23"
-    },
-    {
-      "title": "Hospice Weekend RN (Registered Nurse, Visiting Nurse) - HomeCare",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "East Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26161203/hospice-weekend-rn-registered-nurse-visiting-nurse-homecare",
-      "posted": "2026-07-22"
-    },
-    {
-      "title": "General Surgery and Subspecialty APP (Per Diem)",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/77498",
-      "posted": "2026-07-22"
-    },
-    {
-      "title": "Clinical Triage Nurse; RN",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Hamden, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89785",
-      "posted": "2026-07-22"
-    },
-    {
-      "title": "Staff RN NICU, Fulltime Nights",
-      "role": "RN",
-      "employer": "Stamford Health",
-      "location": "CT, United States",
-      "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6409",
-      "posted": "2026-07-22"
-    },
-    {
-      "title": "REGISTERED NURSE-HVC Heart Failure RN",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/83159",
-      "posted": "2026-07-22"
-    },
-    {
-      "title": "CT-Adult Acute Care Medicine with Telemetry SLA 4",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/87393",
-      "posted": "2026-07-22"
     },
     {
       "title": "Registered Nurse",
