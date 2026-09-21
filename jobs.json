@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T02:31:59",
-  "generated_display": "September 21, 2026 at 02:31 AM",
+  "generated_at": "2026-09-21T11:34:01",
+  "generated_display": "September 21, 2026 at 11:34 AM",
   "counts": {
-    "total": 566,
-    "rn": 450,
+    "total": 568,
+    "rn": 452,
     "aprn": 116
   },
   "jobs": [
@@ -654,6 +654,22 @@
       "location": "Waterford, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/86152",
       "posted": "2026-09-14"
+    },
+    {
+      "title": "Registered Nurse (RN) - Oncology",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Manchester, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26164142/registered-nurse-rn-oncology",
+      "posted": "2026-09-14"
+    },
+    {
+      "title": "Registered Nurse (RN) -OR General Surgery (PER DIEM)",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Meriden, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163995/registered-nurse-rn-or-general-surgery-per-diem",
+      "posted": "2026-09-11"
     },
     {
       "title": "Cardiology Norwich - Per Diem - Nurse Practitioner (APRN) or Physician Assistant",
@@ -3819,7 +3835,7 @@
       "title": "Nurse Navigator - Joint Replacement",
       "role": "RN",
       "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
+      "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88339",
       "posted": "2026-08-05"
     },
