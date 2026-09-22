@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-22T02:35:07",
-  "generated_display": "September 22, 2026 at 02:35 AM",
+  "generated_at": "2026-09-22T10:41:11",
+  "generated_display": "September 22, 2026 at 10:41 AM",
   "counts": {
-    "total": 571,
-    "rn": 455,
-    "aprn": 116
+    "total": 570,
+    "rn": 456,
+    "aprn": 114
   },
   "jobs": [
     {
@@ -896,14 +896,6 @@
       "posted": "2026-09-11"
     },
     {
-      "title": "Advanced Practice Nurse-Primary Care",
-      "role": "APRN",
-      "employer": "VA Connecticut (Federal)",
-      "location": "New London, Connecticut",
-      "url": "https://www.usajobs.gov:443/job/884292300",
-      "posted": "2026-09-11"
-    },
-    {
       "title": "Per Diem Urology Assistant",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -917,14 +909,6 @@
       "employer": "Hartford HealthCare",
       "location": "Farmington, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26164054/home-based-geriatrics-nurse-practitioner-or-physician-assistant",
-      "posted": "2026-09-11"
-    },
-    {
-      "title": "Advanced Practice Nurse-Primary Care",
-      "role": "APRN",
-      "employer": "VA Connecticut (Federal)",
-      "location": "Willimantic, Connecticut",
-      "url": "https://www.usajobs.gov:443/job/884293200",
       "posted": "2026-09-11"
     },
     {
@@ -966,6 +950,14 @@
       "location": "Norwich, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26164030/rn-emergency-department",
       "posted": "2026-09-11"
+    },
+    {
+      "title": "Registered Nurse (RN, Psych, Behavioral Health, Crisis, Acute) - Inpatient Adult Unit",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Vernon, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163957/registered-nurse-rn-psych-behavioral-health-crisis-acute-inpatient-adult-unit",
+      "posted": "2026-09-10"
     },
     {
       "title": "RN - Surgical Oncology",
