@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-09-29T03:27:55",
-  "generated_display": "September 29, 2026 at 03:27 AM",
+  "generated_at": "2026-09-29T11:54:27",
+  "generated_display": "September 29, 2026 at 11:54 AM",
   "counts": {
-    "total": 583,
+    "total": 581,
     "rn": 461,
-    "aprn": 122
+    "aprn": 120
   },
   "jobs": [
+    {
+      "title": "Registered Nurse Advisor -Clinical Documentation Integrity Program",
+      "role": "RN",
+      "employer": "VA Connecticut (Federal)",
+      "location": "West Haven, Connecticut",
+      "url": "https://www.usajobs.gov:443/job/886674400",
+      "posted": "2026-09-29"
+    },
     {
       "title": "Float Pool CC; Registered Nurse",
       "role": "RN",
@@ -2568,14 +2576,6 @@
       "posted": "2026-09-01"
     },
     {
-      "title": "Children's ED Crisis Intervention Center - Milieu Counselor",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90597",
-      "posted": "2026-09-01"
-    },
-    {
       "title": "REGISTERED NURSE-PES/ED Crisis RN",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -2861,14 +2861,6 @@
       "employer": "Yale New Haven Health",
       "location": "New London, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90764",
-      "posted": "2026-08-28"
-    },
-    {
-      "title": "Environmental Services/Patient Transport Support",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90726",
       "posted": "2026-08-28"
     },
     {
@@ -3693,14 +3685,6 @@
       "employer": "Yale New Haven Health",
       "location": "New London, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/81353",
-      "posted": "2026-08-18"
-    },
-    {
-      "title": "Oncology Practice Nurse; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Waterbury, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/89837",
       "posted": "2026-08-18"
     },
     {
