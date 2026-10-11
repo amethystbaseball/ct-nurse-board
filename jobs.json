@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T20:58:10",
-  "generated_display": "October 10, 2026 at 08:58 PM",
+  "generated_at": "2026-10-11T03:05:20",
+  "generated_display": "October 11, 2026 at 03:05 AM",
   "counts": {
-    "total": 593,
-    "rn": 479,
-    "aprn": 114
+    "total": 584,
+    "rn": 475,
+    "aprn": 109
   },
   "jobs": [
     {
@@ -992,6 +992,14 @@
       "posted": "2026-10-02"
     },
     {
+      "title": "Preoperative Screening RN - Per Diem",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Preoperative-Screening-RN---Per-Diem_00689438-1",
+      "posted": "2026-10-02"
+    },
+    {
       "title": "Home Health -Hospice Home Health Aide",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -1088,11 +1096,11 @@
       "posted": "2026-10-01"
     },
     {
-      "title": "Preoperative Screening RN - Per Diem",
+      "title": "Orthopedic Operating Room RN – Joint and Spine",
       "role": "RN",
       "employer": "Trinity Health Of New England",
       "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Preoperative-Screening-RN---Per-Diem_00689438-1",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Orthopedic-Operating-Room-RN---Joint-and-Spine_00693917",
       "posted": "2026-10-01"
     },
     {
@@ -1128,6 +1136,14 @@
       "posted": "2026-10-01"
     },
     {
+      "title": "Operating Room RN – Joint and Spine",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN---Joint-and-Spine_00693711",
+      "posted": "2026-10-01"
+    },
+    {
       "title": "Home Health- Hospice Admission Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -1149,14 +1165,6 @@
       "employer": "Yale New Haven Health",
       "location": "New London, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91414",
-      "posted": "2026-09-30"
-    },
-    {
-      "title": "Orthopedic Operating Room RN – Joint and Spine",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Orthopedic-Operating-Room-RN---Joint-and-Spine_00693917",
       "posted": "2026-09-30"
     },
     {
@@ -1189,14 +1197,6 @@
       "employer": "Yale New Haven Health",
       "location": "Westport, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/86160",
-      "posted": "2026-09-30"
-    },
-    {
-      "title": "Operating Room RN – Joint and Spine",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN---Joint-and-Spine_00693711",
       "posted": "2026-09-30"
     },
     {
@@ -4662,78 +4662,6 @@
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26162384/trauma-surgery-physician-assistant-or-nurse-practitioner",
       "posted": "2026-08-12"
-    },
-    {
-      "title": "Registered Nurse (RN, GN ) - Oncology",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26162291/registered-nurse-rn-gn-oncology",
-      "posted": "2026-08-11"
-    },
-    {
-      "title": "Surgical Urology and Subspecialties - Physician Assistant or Nurse Practitioner",
-      "role": "APRN",
-      "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26162323/surgical-urology-and-subspecialties-physician-assistant-or-nurse-practitioner",
-      "posted": "2026-08-11"
-    },
-    {
-      "title": "Pediatric ACA - Fulltime - Days",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90213",
-      "posted": "2026-08-11"
-    },
-    {
-      "title": "Staff Nurse - Operating Room - 40hr",
-      "role": "RN",
-      "employer": "Connecticut Children's",
-      "location": "Hartford, CT, United States",
-      "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/2249",
-      "posted": "2026-08-11"
-    },
-    {
-      "title": "Certified Registered Nurse Anesthetist-Bridgeport, CT",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/74010",
-      "posted": "2026-08-11"
-    },
-    {
-      "title": "APP Hospitalist  - Days",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Milford, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90316",
-      "posted": "2026-08-11"
-    },
-    {
-      "title": "Onsite Medical,APP",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/85424",
-      "posted": "2026-08-11"
-    },
-    {
-      "title": "Registered Nurse (RN, GN) - Oncology",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26162293/registered-nurse-rn-gn-oncology",
-      "posted": "2026-08-11"
-    },
-    {
-      "title": "Primary Care - Nurse Practitioner or Physician Assistant",
-      "role": "APRN",
-      "employer": "Hartford HealthCare",
-      "location": "Windsor, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26162278/primary-care-nurse-practitioner-or-physician-assistant",
-      "posted": "2026-08-11"
     },
     {
       "title": "Registered Nurse",
