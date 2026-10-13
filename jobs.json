@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13T00:03:24",
-  "generated_display": "October 13, 2026 at 12:03 AM",
+  "generated_at": "2026-10-13T05:38:16",
+  "generated_display": "October 13, 2026 at 05:38 AM",
   "counts": {
-    "total": 570,
-    "rn": 467,
+    "total": 571,
+    "rn": 468,
     "aprn": 103
   },
   "jobs": [
@@ -541,6 +541,14 @@
       "employer": "Yale New Haven Health",
       "location": "Fairfield, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91374",
+      "posted": "2026-10-06"
+    },
+    {
+      "title": "Registered Nurse (RN) -OR General Surgery",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26165263/registered-nurse-rn-or-general-surgery",
       "posted": "2026-10-06"
     },
     {
@@ -1285,14 +1293,6 @@
       "employer": "Hartford HealthCare",
       "location": "Bridgeport, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26164979/registered-nurse-rn-cardiovascular",
-      "posted": "2026-09-30"
-    },
-    {
-      "title": "Registered Nurse (RN) - Inpatient Child/Adolescent Unit",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Mansfield Center, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164978/registered-nurse-rn-inpatient-child-adolescent-unit",
       "posted": "2026-09-30"
     },
     {
@@ -2592,6 +2592,14 @@
       "posted": "2026-09-16"
     },
     {
+      "title": "Registered Nurse (RN) - Float Pool",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Norwich, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26164260/registered-nurse-rn-float-pool",
+      "posted": "2026-09-16"
+    },
+    {
       "title": "Registered Nurse (RN) - OR Eye Surgery Center",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2677,22 +2685,6 @@
       "employer": "Hartford HealthCare",
       "location": "Newington, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26164166/registered-nurse-rn-pre-post-op-eye-surgery-center",
-      "posted": "2026-09-15"
-    },
-    {
-      "title": "Registered Nurse (RN) -OR General Surgery",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164178/registered-nurse-rn-or-general-surgery",
-      "posted": "2026-09-15"
-    },
-    {
-      "title": "Registered Nurse (RN) - Adolescent Psych",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Westport, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164217/registered-nurse-rn-adolescent-psych",
       "posted": "2026-09-15"
     },
     {
@@ -3920,6 +3912,14 @@
       "posted": "2026-08-28"
     },
     {
+      "title": "Registered Nurse (RN) - Adolescent Psych",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Westport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163357/registered-nurse-rn-adolescent-psych",
+      "posted": "2026-08-28"
+    },
+    {
       "title": "Registered Nurse (RN) - Float Pool",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -3997,6 +3997,14 @@
       "employer": "Yale New Haven Health",
       "location": "New Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/81502",
+      "posted": "2026-08-26"
+    },
+    {
+      "title": "Registered Nurse (RN) - Inpatient Child/Adolescent Unit",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Mansfield Center, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163192/registered-nurse-rn-inpatient-child-adolescent-unit",
       "posted": "2026-08-26"
     },
     {
