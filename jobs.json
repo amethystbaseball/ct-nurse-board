@@ -1,20 +1,12 @@
 {
-  "generated_at": "2026-10-17T02:18:05",
-  "generated_display": "October 17, 2026 at 02:18 AM",
+  "generated_at": "2026-10-17T09:58:31",
+  "generated_display": "October 17, 2026 at 09:58 AM",
   "counts": {
-    "total": 595,
-    "rn": 485,
+    "total": 591,
+    "rn": 481,
     "aprn": 110
   },
   "jobs": [
-    {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Mary's Hospital Waterbury, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Marys-Hospital-Waterbury-CT/Operating-Room-RN_00701377",
-      "posted": "2026-10-17"
-    },
     {
       "title": "Milieu Counselor - General Adult",
       "role": "RN",
@@ -109,6 +101,14 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91777",
+      "posted": "2026-10-16"
+    },
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Mary's Hospital Waterbury, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Marys-Hospital-Waterbury-CT/Operating-Room-RN_00701377",
       "posted": "2026-10-16"
     },
     {
@@ -552,14 +552,6 @@
       "posted": "2026-10-12"
     },
     {
-      "title": "Oncology Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Oncology-Registered-Nurse_00684453",
-      "posted": "2026-10-10"
-    },
-    {
       "title": "Registered Nurse (RN) - Per Diem",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -656,14 +648,6 @@
       "posted": "2026-10-09"
     },
     {
-      "title": "PACU Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/PACU-Registered-Nurse_00698681-1",
-      "posted": "2026-10-09"
-    },
-    {
       "title": "Surg/Ortho Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -702,14 +686,6 @@
       "location": "Norwich, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26165467/registered-nurse-rn-or-general-surgery",
       "posted": "2026-10-09"
-    },
-    {
-      "title": "Assistant Registered Nurse Manager - Acute Care 4 West",
-      "role": "RN",
-      "employer": "VA Connecticut (Federal)",
-      "location": "West Haven, Connecticut",
-      "url": "https://www.usajobs.gov:443/job/888175700",
-      "posted": "2026-10-08"
     },
     {
       "title": "Staff RN Oncology Unit, Per Diem Day Shift",
@@ -1528,14 +1504,6 @@
       "posted": "2026-10-02"
     },
     {
-      "title": "Registered Nurse Orthopedic",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Registered-Nurse-Orthopedic_00696077",
-      "posted": "2026-10-02"
-    },
-    {
       "title": "Perianesthesia RN - ASU/PACU",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -1648,14 +1616,6 @@
       "posted": "2026-10-01"
     },
     {
-      "title": "Orthopedic Operating Room RN – Joint and Spine",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Orthopedic-Operating-Room-RN---Joint-and-Spine_00693917",
-      "posted": "2026-10-01"
-    },
-    {
       "title": "Home Health Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -1685,14 +1645,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90789",
-      "posted": "2026-10-01"
-    },
-    {
-      "title": "Operating Room RN – Joint and Spine",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN---Joint-and-Spine_00693711",
       "posted": "2026-10-01"
     },
     {
@@ -1736,6 +1688,14 @@
       "posted": "2026-09-30"
     },
     {
+      "title": "Orthopedic Operating Room RN – Joint and Spine",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Orthopedic-Operating-Room-RN---Joint-and-Spine_00693917",
+      "posted": "2026-09-30"
+    },
+    {
       "title": "Cath Lab/EP Lab Nurse Practitioner",
       "role": "APRN",
       "employer": "Stamford Health",
@@ -1757,6 +1717,14 @@
       "employer": "Yale New Haven Health",
       "location": "Westport, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/86160",
+      "posted": "2026-09-30"
+    },
+    {
+      "title": "Operating Room RN – Joint and Spine",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN---Joint-and-Spine_00693711",
       "posted": "2026-09-30"
     },
     {
