@@ -1,12 +1,20 @@
 {
-  "generated_at": "2026-10-26T18:01:30",
-  "generated_display": "October 26, 2026 at 06:01 PM",
+  "generated_at": "2026-10-26T22:21:42",
+  "generated_display": "October 26, 2026 at 10:21 PM",
   "counts": {
-    "total": 556,
-    "rn": 450,
-    "aprn": 106
+    "total": 554,
+    "rn": 447,
+    "aprn": 107
   },
   "jobs": [
+    {
+      "title": "Chemotherapy Infusion RN; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Trumbull, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/91614",
+      "posted": "2026-10-26"
+    },
     {
       "title": "Assistant Nurse Manager Medical ICU & SDU",
       "role": "RN",
@@ -45,6 +53,14 @@
       "employer": "Yale New Haven Health",
       "location": "Fairfield, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91108",
+      "posted": "2026-10-26"
+    },
+    {
+      "title": "Neurosciences APP Per-Diem",
+      "role": "APRN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/89252",
       "posted": "2026-10-26"
     },
     {
@@ -784,14 +800,6 @@
       "posted": "2026-10-15"
     },
     {
-      "title": "Infusion RN; Registered Nurse, Full-time",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "North Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/92011",
-      "posted": "2026-10-15"
-    },
-    {
       "title": "Staff RN General Surgery, Fulltime Nights",
       "role": "RN",
       "employer": "Stamford Health",
@@ -1112,14 +1120,6 @@
       "posted": "2026-10-13"
     },
     {
-      "title": "36HR Night Shift RN - 4.2 Ortho",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New London, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90497",
-      "posted": "2026-10-13"
-    },
-    {
       "title": "Registered Nurse (RN) - Oncology",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1384,14 +1384,6 @@
       "posted": "2026-10-08"
     },
     {
-      "title": "RN; Registered Nurse-Breast Practice",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Greenwich, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/91586",
-      "posted": "2026-10-08"
-    },
-    {
       "title": "Registered Nurse Operating Room; Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -1549,14 +1541,6 @@
       "employer": "Yale New Haven Health",
       "location": "Milford, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91864",
-      "posted": "2026-10-07"
-    },
-    {
-      "title": "SRC PACU RN; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "New Haven, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90148",
       "posted": "2026-10-07"
     },
     {
@@ -2872,6 +2856,14 @@
       "posted": "2026-09-22"
     },
     {
+      "title": "Neurology APP Bridgeport Hospital (Full Time)",
+      "role": "APRN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/91215",
+      "posted": "2026-09-21"
+    },
+    {
       "title": "Assistant Nurse Manager - OR General Surgery",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2901,14 +2893,6 @@
       "employer": "Yale New Haven Health",
       "location": "Bridgeport, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/81832",
-      "posted": "2026-09-21"
-    },
-    {
-      "title": "Neurology APP Bridgeport hospital",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/91215",
       "posted": "2026-09-21"
     },
     {
