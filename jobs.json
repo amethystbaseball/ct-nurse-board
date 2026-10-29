@@ -1,12 +1,36 @@
 {
-  "generated_at": "2026-10-28T22:05:05",
-  "generated_display": "October 28, 2026 at 10:05 PM",
+  "generated_at": "2026-10-29T03:40:34",
+  "generated_display": "October 29, 2026 at 03:40 AM",
   "counts": {
-    "total": 560,
-    "rn": 454,
+    "total": 565,
+    "rn": 459,
     "aprn": 106
   },
   "jobs": [
+    {
+      "title": "Perdiem Maternal Fetal Medicine RN; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/92324",
+      "posted": "2026-10-28"
+    },
+    {
+      "title": "RN Spine Center; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/92327",
+      "posted": "2026-10-28"
+    },
+    {
+      "title": "Registered Nurse; Registered Nurse",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Wallingford, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/92344",
+      "posted": "2026-10-28"
+    },
     {
       "title": "Per Derm OB/GYN Physician",
       "role": "APRN",
@@ -64,11 +88,27 @@
       "posted": "2026-10-28"
     },
     {
+      "title": "Orthopedic Operating Room RN – Joint and Spine",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Orthopedic-Operating-Room-RN---Joint-and-Spine_00693917",
+      "posted": "2026-10-28"
+    },
+    {
       "title": "RN Registered Nurse –Neuro/Surgical Intermediate Care",
       "role": "RN",
       "employer": "Yale New Haven Health",
       "location": "New Haven, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/87994",
+      "posted": "2026-10-28"
+    },
+    {
+      "title": "Operating Room RN – Joint and Spine",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Francis Hospital - Hartford, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN---Joint-and-Spine_00693711",
       "posted": "2026-10-28"
     },
     {
@@ -88,11 +128,27 @@
       "posted": "2026-10-28"
     },
     {
+      "title": "Cardiology ACA",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "New Haven, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/92330",
+      "posted": "2026-10-28"
+    },
+    {
       "title": "Registered Nurse (RN) - Orthopedics",
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Meriden, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26166415/registered-nurse-rn-orthopedics",
+      "posted": "2026-10-28"
+    },
+    {
+      "title": "RN Emergency Department",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Willimantic, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26166484/rn-emergency-department",
       "posted": "2026-10-28"
     },
     {
@@ -176,27 +232,11 @@
       "posted": "2026-10-27"
     },
     {
-      "title": "Orthopedic Operating Room RN – Joint and Spine",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Orthopedic-Operating-Room-RN---Joint-and-Spine_00693917",
-      "posted": "2026-10-27"
-    },
-    {
       "title": "Medicine Registered Nurse",
       "role": "RN",
       "employer": "Yale New Haven Health",
       "location": "Greenwich, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/92266",
-      "posted": "2026-10-27"
-    },
-    {
-      "title": "Operating Room RN – Joint and Spine",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Francis Hospital - Hartford, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Francis-Hospital---Hartford-CT/Operating-Room-RN---Joint-and-Spine_00693711",
       "posted": "2026-10-27"
     },
     {
@@ -229,14 +269,6 @@
       "employer": "Connecticut Children's",
       "location": "Hartford, CT, United States",
       "url": "https://fa-evav-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/connecticutchildrenscareers/job/5792",
-      "posted": "2026-10-27"
-    },
-    {
-      "title": "Registered Nurse - Graduate Nurse (RN, GN) - Surgical A4",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26166360/registered-nurse-graduate-nurse-rn-gn-surgical-a4",
       "posted": "2026-10-27"
     },
     {
@@ -432,6 +464,14 @@
       "posted": "2026-10-23"
     },
     {
+      "title": "Primary Care RN - HomeCare",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "East Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26166204/primary-care-rn-homecare",
+      "posted": "2026-10-23"
+    },
+    {
       "title": "APP- NNICU, Yale New Haven Hospital",
       "role": "APRN",
       "employer": "Yale New Haven Health",
@@ -501,6 +541,14 @@
       "employer": "Hartford HealthCare",
       "location": "New Britain, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26166191/registered-nurse-acute-rn-neonatal-intensive-care-unit-nicu",
+      "posted": "2026-10-23"
+    },
+    {
+      "title": "RN Emergency Department",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Norwich, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26166232/rn-emergency-department",
       "posted": "2026-10-23"
     },
     {
@@ -664,11 +712,11 @@
       "posted": "2026-10-21"
     },
     {
-      "title": "Registered Nurse Acute (RN) - Family Birthing Center",
+      "title": "Registered Nurse Acute (RN) -  Family Birthing Center",
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "New Britain, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26166071/registered-nurse-acute-rn-family-birthing-center",
+      "url": "https://www.hhccareers.org/us/en/job/26166072/registered-nurse-acute-rn-family-birthing-center",
       "posted": "2026-10-21"
     },
     {
@@ -768,6 +816,14 @@
       "posted": "2026-10-20"
     },
     {
+      "title": "Registered Nurse (RN) - Inpatient Adult Unit (per diem)",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Mansfield Center, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26166006/registered-nurse-rn-inpatient-adult-unit-per-diem",
+      "posted": "2026-10-20"
+    },
+    {
       "title": "Registered Nurse (RN) -Post Anesthesia Care Unit",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -781,6 +837,22 @@
       "employer": "Yale New Haven Health",
       "location": "New London, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/89237",
+      "posted": "2026-10-20"
+    },
+    {
+      "title": "Operating Room RN",
+      "role": "RN",
+      "employer": "Trinity Health Of New England",
+      "location": "Saint Mary's Hospital Waterbury, CT",
+      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Marys-Hospital-Waterbury-CT/Operating-Room-RN_00701377",
+      "posted": "2026-10-20"
+    },
+    {
+      "title": "Registered Nurse (RN) - Inpatient Child/Adolescent Unit",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Mansfield Center, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26166007/registered-nurse-rn-inpatient-child-adolescent-unit",
       "posted": "2026-10-20"
     },
     {
@@ -917,14 +989,6 @@
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26165877/registered-nurse-rn-gn-new-opportunity-medical-observation-unit",
-      "posted": "2026-10-19"
-    },
-    {
-      "title": "Operating Room RN",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Saint Mary's Hospital Waterbury, CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Saint-Marys-Hospital-Waterbury-CT/Operating-Room-RN_00701377",
       "posted": "2026-10-19"
     },
     {
@@ -1108,7 +1172,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "New Britain, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26165761/icu-registered-nurse-rn-float-pool",
+      "url": "https://www.hhccareers.org/us/en/job/26165728/icu-registered-nurse-rn-float-pool",
       "posted": "2026-10-15"
     },
     {
@@ -1296,14 +1360,6 @@
       "posted": "2026-10-14"
     },
     {
-      "title": "RN Emergency Department (per diem)",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26165639/rn-emergency-department-per-diem",
-      "posted": "2026-10-14"
-    },
-    {
       "title": "Registered Nurse Acute (RN) - Neonatal Intensive Care Unit",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1320,19 +1376,19 @@
       "posted": "2026-10-14"
     },
     {
+      "title": "Registered Nurse (RN) - Cardiology ICU",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26165660/registered-nurse-rn-cardiology-icu",
+      "posted": "2026-10-14"
+    },
+    {
       "title": "Registered Nurse (RN, GN) - Bone & Joint Inpatient",
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26165630/registered-nurse-rn-gn-bone-joint-inpatient",
-      "posted": "2026-10-14"
-    },
-    {
-      "title": "RN Emergency Department",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26165642/rn-emergency-department",
       "posted": "2026-10-14"
     },
     {
@@ -1464,14 +1520,6 @@
       "posted": "2026-10-13"
     },
     {
-      "title": "Registered Nurse (RN) - Medical Telemetry/Stroke",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Meriden, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26165608/registered-nurse-rn-medical-telemetry-stroke",
-      "posted": "2026-10-13"
-    },
-    {
       "title": "Registered Nurse (RN) - OR General Surgery",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -1572,7 +1620,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Meriden, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26165495/registered-nurse-rn-med-surg",
+      "url": "https://www.hhccareers.org/us/en/job/26165496/registered-nurse-rn-med-surg",
       "posted": "2026-10-11"
     },
     {
@@ -1620,7 +1668,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26165477/registered-nurse-rn-medical-neuro-icu",
+      "url": "https://www.hhccareers.org/us/en/job/26165478/registered-nurse-rn-medical-neuro-icu",
       "posted": "2026-10-09"
     },
     {
@@ -1653,14 +1701,6 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6743",
-      "posted": "2026-10-08"
-    },
-    {
-      "title": "Primary Care RN - HomeCare",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "East Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26165366/primary-care-rn-homecare",
       "posted": "2026-10-08"
     },
     {
@@ -1949,6 +1989,14 @@
       "employer": "Yale New Haven Health",
       "location": "Fairfield, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91374",
+      "posted": "2026-10-06"
+    },
+    {
+      "title": "Registered Nurse (RN) -OR General Surgery",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26165263/registered-nurse-rn-or-general-surgery",
       "posted": "2026-10-06"
     },
     {
@@ -2496,14 +2544,6 @@
       "posted": "2026-09-30"
     },
     {
-      "title": "Registered Nurse (RN) - Inpatient Child/Adolescent Unit",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Mansfield Center, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164978/registered-nurse-rn-inpatient-child-adolescent-unit",
-      "posted": "2026-09-30"
-    },
-    {
       "title": "Central Shoreline HomeCare RN- SIGN ON BONUS",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -2557,14 +2597,6 @@
       "employer": "Hartford HealthCare",
       "location": "Bridgeport, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26164891/registered-nurse-rn-adult-psych",
-      "posted": "2026-09-29"
-    },
-    {
-      "title": "Registered Nurse (RN) - OR CORE",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164883/registered-nurse-rn-or-core",
       "posted": "2026-09-29"
     },
     {
@@ -3076,7 +3108,7 @@
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164537/rn-emergency-department-observation",
+      "url": "https://www.hhccareers.org/us/en/job/26164538/rn-emergency-department-observation",
       "posted": "2026-09-22"
     },
     {
@@ -3400,6 +3432,14 @@
       "posted": "2026-09-17"
     },
     {
+      "title": "Clinical Tech",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "NEW HAVEN, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/91159",
+      "posted": "2026-09-17"
+    },
+    {
       "title": "Registered Nurse (RN) - Medicine ICU",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -3421,14 +3461,6 @@
       "employer": "Hartford HealthCare",
       "location": "Willimantic, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26164268/registered-nurse-rn-first-response",
-      "posted": "2026-09-16"
-    },
-    {
-      "title": "Registered Nurse (RN) - Inpatient Adult Unit (per diem)",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Mansfield Center, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164278/registered-nurse-rn-inpatient-adult-unit-per-diem",
       "posted": "2026-09-16"
     },
     {
@@ -3469,22 +3501,6 @@
       "employer": "Hartford HealthCare",
       "location": "Manchester, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26164256/registered-nurse-rn-gi-endoscopy",
-      "posted": "2026-09-16"
-    },
-    {
-      "title": "Registered Nurse (RN) - NICU",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164271/registered-nurse-rn-nicu",
-      "posted": "2026-09-16"
-    },
-    {
-      "title": "Registered Nurse (RN) - Float Pool",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Norwich, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26164260/registered-nurse-rn-float-pool",
       "posted": "2026-09-16"
     },
     {
@@ -3816,19 +3832,11 @@
       "posted": "2026-09-09"
     },
     {
-      "title": "Registered Nurse (RN, Psych, Behavioral Health, Crisis, Acute) - Inpatient Adolescent Unit",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Manchester, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26163908/registered-nurse-rn-psych-behavioral-health-crisis-acute-inpatient-adolescent-unit",
-      "posted": "2026-09-09"
-    },
-    {
       "title": "Registered Nurse (RN, Psych, Behavioral Health, Crisis, Acute) - Inpatient Dual Diagnosis",
       "role": "RN",
       "employer": "Hartford HealthCare",
       "location": "Manchester, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26163909/registered-nurse-rn-psych-behavioral-health-crisis-acute-inpatient-dual-diagnosis",
+      "url": "https://www.hhccareers.org/us/en/job/26163907/registered-nurse-rn-psych-behavioral-health-crisis-acute-inpatient-dual-diagnosis",
       "posted": "2026-09-09"
     },
     {
@@ -3896,6 +3904,14 @@
       "posted": "2026-09-09"
     },
     {
+      "title": "REGISTERED NURSE-Operating Room RN-Sign on bonus eligible",
+      "role": "RN",
+      "employer": "Yale New Haven Health",
+      "location": "Bridgeport, Connecticut",
+      "url": "https://jobs.ynhhs.org/jobs/91077",
+      "posted": "2026-09-09"
+    },
+    {
       "title": "Registered Nurse (RN)",
       "role": "RN",
       "employer": "Hartford HealthCare",
@@ -3910,6 +3926,14 @@
       "location": "Torrington, Connecticut",
       "url": "https://www.hhccareers.org/us/en/job/26163864/registered-nurse-rn-med-surg",
       "posted": "2026-09-09"
+    },
+    {
+      "title": "Registered Nurse (RN, Psych, Behavioral Health, Crisis, Acute) - Inpatient Adolescent Unit",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Manchester, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163787/registered-nurse-rn-psych-behavioral-health-crisis-acute-inpatient-adolescent-unit",
+      "posted": "2026-09-08"
     },
     {
       "title": "Registered Nurse (RN) - OR General Surgery (Per Diem)",
@@ -3997,6 +4021,14 @@
       "employer": "Stamford Health",
       "location": "Stamford, CT, United States",
       "url": "https://fa-ewfb-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Careers/job/6537",
+      "posted": "2026-09-08"
+    },
+    {
+      "title": "Registered Nurse (RN, GN) - Neuro Surgical",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163821/registered-nurse-rn-gn-neuro-surgical",
       "posted": "2026-09-08"
     },
     {
@@ -4101,14 +4133,6 @@
       "employer": "Yale New Haven Health",
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/88476",
-      "posted": "2026-09-04"
-    },
-    {
-      "title": "Nurse Educator (RN) - CTICU",
-      "role": "RN",
-      "employer": "Hartford HealthCare",
-      "location": "Hartford, Connecticut",
-      "url": "https://www.hhccareers.org/us/en/job/26163710/nurse-educator-rn-cticu",
       "posted": "2026-09-04"
     },
     {
@@ -4280,6 +4304,22 @@
       "posted": "2026-09-02"
     },
     {
+      "title": "Registered Nurse (RN) - Child Inpatient",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163544/registered-nurse-rn-child-inpatient",
+      "posted": "2026-09-02"
+    },
+    {
+      "title": "Registered Nurse - Graduate Nurse (RN, GN) - Cardiology E4",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Norwich, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163547/registered-nurse-graduate-nurse-rn-gn-cardiology-e4",
+      "posted": "2026-09-02"
+    },
+    {
       "title": "REGISTERED NURSE-Urology/Cystoscopy RN",
       "role": "RN",
       "employer": "Yale New Haven Health",
@@ -4333,6 +4373,14 @@
       "employer": "Yale New Haven Health",
       "location": "Bridgeport, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90818",
+      "posted": "2026-09-01"
+    },
+    {
+      "title": "Registered Nurse (RN) - OR CORE",
+      "role": "RN",
+      "employer": "Hartford HealthCare",
+      "location": "Hartford, Connecticut",
+      "url": "https://www.hhccareers.org/us/en/job/26163473/registered-nurse-rn-or-core",
       "posted": "2026-09-01"
     },
     {
@@ -4470,14 +4518,6 @@
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/90517",
       "posted": "2026-08-31"
-    },
-    {
-      "title": "Registered Nurse",
-      "role": "RN",
-      "employer": "Trinity Health Of New England",
-      "location": "Trinity Health Of New England At Home - CT",
-      "url": "https://trinityhealth.wd1.myworkdayjobs.com/Jobs/job/Trinity-Health-Of-New-England-At-Home---CT/Registered-Nurse_00688406",
-      "posted": "2026-08-19"
     },
     {
       "title": "Registered Nurse Surgical Cardiology Full Time Days",
