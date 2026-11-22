@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T22:40:15",
-  "generated_display": "November 21, 2026 at 10:40 PM",
+  "generated_at": "2026-11-22T04:14:04",
+  "generated_display": "November 22, 2026 at 04:14 AM",
   "counts": {
-    "total": 588,
-    "rn": 493,
-    "aprn": 95
+    "total": 582,
+    "rn": 488,
+    "aprn": 94
   },
   "jobs": [
     {
@@ -4662,54 +4662,6 @@
       "location": "NEW HAVEN, Connecticut",
       "url": "https://jobs.ynhhs.org/jobs/91400",
       "posted": "2026-09-23"
-    },
-    {
-      "title": "Assistant Nurse Manager PICU",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/91312",
-      "posted": "2026-09-22"
-    },
-    {
-      "title": "Emergency Medicine APP",
-      "role": "APRN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/90886",
-      "posted": "2026-09-22"
-    },
-    {
-      "title": "Surg Tech",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Milford, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/91379",
-      "posted": "2026-09-22"
-    },
-    {
-      "title": "Assistant Nurse Manager-Operating Room",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Bridgeport, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/91355",
-      "posted": "2026-09-22"
-    },
-    {
-      "title": "clinical nurse; Registered Nurse",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "NEW HAVEN, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/88071",
-      "posted": "2026-09-22"
-    },
-    {
-      "title": "Home Health Aide",
-      "role": "RN",
-      "employer": "Yale New Haven Health",
-      "location": "Guilford, Connecticut",
-      "url": "https://jobs.ynhhs.org/jobs/91320",
-      "posted": "2026-09-22"
     }
   ]
 }
